@@ -1,0 +1,39 @@
+
+// child theme styles for How Are We Free
+
+// * * * Variables & Mixinx * * * //
+
+// fonts
+$header-font: "cooper_hewittmedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-font: "cooper_hewittbook", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$emphasis-font: "londrina_outline", sans-serif;
+
+// * * * Global * * * //
+
+h1, h2, h3, h4, h5, h6, #mainNav {
+    font-family: $header-font;
+}
+
+nav#mainNav.navbar.fixed-top.is-fixed {
+    top: 0;
+
+    &.is-visible {
+        transform: unset;
+        -moz-transform: unset;
+        -webkit-transform: unset;
+        -o-transform: unset;
+    }
+}
+
+header.masthead {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: 0% 22%;
+    background-size: cover;
+
+    .page-heading span.subheading {
+        text-align: left;
+        hyphens: auto;
+    }
+}
+
