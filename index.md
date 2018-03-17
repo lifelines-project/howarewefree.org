@@ -1,4 +1,4 @@
 ---
 layout: splash
-background: 'assets/images/gb-freedom.jpg'
+background: 'how-are-we-free/assets/images/gb-freedom.jpg'
 ---

@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LifelinesPA
 facebook_username: lifelinespa
 author_url: "http://lifelines-project.org/"
+asset_subpath: "/how-are-we-free"
 
 # Build settings
 markdown: kramdown
