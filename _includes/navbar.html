@@ -11,8 +11,17 @@
 
         {% for link in site.data.navigation.menu %}
 
+        {% capture url %}
+
+          {% if link.url contains "//" %}
+              {{ link.url }}
+          {% else %}
+              {{ link.url | relative_url }}
+          {% endif %}
+        {% endcapture %}
+
         <li class="nav-item">
-          <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | uppercase }}</a>
+          <a class="nav-link" href="{{ url }}">{{ link.title | uppercase }}</a>
         </li>
 
         {% endfor %}

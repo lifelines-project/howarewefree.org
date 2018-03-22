@@ -25,15 +25,28 @@ nav#mainNav.navbar.fixed-top.is-fixed {
     }
 }
 
-header.masthead {
+.splash header.masthead {
+
     height: 100vh;
     background-attachment: fixed;
-    background-position: 0% 22%;
-    background-size: cover;
+    background-position: 50% 20%;
+    background-size: 132%;
+    
+    .page-heading {
+        padding-top: 5rem;
+    }
+
+    .page-heading h1, span.subheading {
+        background-color: rgba($gray-900, .75);
+        padding: 0 1rem;        
+    }
 
     .page-heading span.subheading {
         text-align: left;
-        hyphens: auto;
+    }
+
+    .overlay {
+        opacity: 0;
     }
 }
 
