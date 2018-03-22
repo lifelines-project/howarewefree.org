@@ -17,7 +17,7 @@ title: HOW ARE WE FREE
 email: "lifelinesphilly@gmail.com"
 author: 'LifeLines: Voices Against the Other Death Penalty'
 description: > # this means to ignore newlines until "baseurl:"
-  How Are We Free explores the nature of freedom and confinement through creative 
+  *How Are We Free* explores the nature of freedom and confinement through creative 
   collaboration between people who have been sentenced to die in prison and visual 
   artists outside the prison walls. Visual economies and regimes of power have been 
   massively employed by the state and the media in order to criminalize people. This 
@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LifelinesPA
 facebook_username: lifelinespa
+instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
 asset_subpath: "/how-are-we-free"
 
