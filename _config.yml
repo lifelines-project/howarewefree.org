@@ -29,7 +29,7 @@ twitter_username: LifelinesPA
 facebook_username: lifelinespa
 instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
-asset_subpath: "/how-are-we-free"
+asset_subpath: "/hawf"
 
 # Build settings
 markdown: kramdown
