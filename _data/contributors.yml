@@ -1,0 +1,14 @@
+group1:
+  - name: Marco Polo
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/344px-Marco_Polo_-_costume_tartare.jpg
+    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
+  - name: Narco Bolo
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg/382px-Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
+    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
+group2:
+  - name: Barco Dolo
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/344px-Marco_Polo_-_costume_tartare.jpg
+    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
+  - name: Carco Folo
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg/382px-Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
+    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
