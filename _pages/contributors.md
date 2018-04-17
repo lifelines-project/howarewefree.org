@@ -1,6 +1,6 @@
 ---
 title: Contributors
-layout: contributors
+layout: default
 permalink: /:name
 ---
 
