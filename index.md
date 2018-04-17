@@ -1,5 +1,5 @@
 ---
 layout: splash
-background: 'how-are-we-free/assets/images/gb-freedom.jpg'
+background: 'hawf/assets/images/gb-freedom.jpg'
 class: splash
 ---
