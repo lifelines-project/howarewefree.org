@@ -29,7 +29,8 @@ twitter_username: LifelinesPA
 facebook_username: lifelinespa
 instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
-asset_subpath: "/hawf"
+# asset_subpath: "/hawf"
+asset_subpath: ""
 
 collections:
   works:
@@ -47,6 +48,8 @@ defaults:
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog
+include:
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -25,6 +25,22 @@ nav#mainNav.navbar.fixed-top.is-fixed {
     }
 }
 
+// * * * default Pages * * * //
+
+.default {
+
+    nav#mainNav {
+        background-color: rgba($gray-600, .75);
+    }
+
+    > .container {
+        margin-top: 5rem;
+    }
+}
+
+
+// * * * Splash * * * //
+
 .splash header.masthead {
 
     height: 100vh;
