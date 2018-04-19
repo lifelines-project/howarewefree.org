@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+
+Features a grid of the related posts followed by the bio information of the contributors.
+
+<!-- grid -->
+
+{% assign contributor_posts = site.works | where: 'contributors', page.contributors %}
+
+{% include posts-grid.html posts = contributor_posts %}
+
+<!-- contributors -->
+
+<div class="row">
+
+    {% assign c = page.contributors %}
+
+    {% assign g = site.data.contributors[c] %}
+    
+    {% include contributors-grid.html group = g %}
+
+</div>
+</div>

@@ -1,0 +1,19 @@
+    <div class="d-flex p-2 border contributors">
+
+    {% for c in include.group %}
+
+    <div class="w-100 p-2 pb-4">
+
+    <div class="float-left">
+    <img class="pb-4" style="max-height: 225px" src="{{ c.image }}" alt="">
+
+    <h3>{{ c.name }}</h3>
+    </div>
+
+    {{ c.bio | markdownify }}
+
+    </div>
+
+    {% endfor %}
+
+    </div>

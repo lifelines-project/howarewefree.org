@@ -1,3 +1,7 @@
 menu:
   - title: About the Exhibit
     url: "http://lifelines-project.org/exhibit"
+  - title: Gallery
+    url: /gallery/
+  - title: Contributors
+    url: /contributors/

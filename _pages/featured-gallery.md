@@ -1,7 +1,7 @@
 ---
 title: Featured Gallery
 layout: default
-permalink: /featured-gallery/
+permalink: /gallery/
 class: featured
 ---
 
@@ -9,11 +9,11 @@ class: featured
 
 Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/components/carousel/) -->
 
-
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div class="container-fluid">
+<div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
 
-  {% for work in site.works where %}
+  {% for work in site.works %}
 
   {% if work.featured == true %}  
 
@@ -22,7 +22,7 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
 
   {% if work.excerpt %}
   <div class="carousel-caption d-none d-md-block">
-    <p> {{ work.excerpt | markdownify }}</p>
+    {{ work.excerpt | markdownify }}
   </div>
   {% endif %}
 
@@ -39,4 +39,5 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="sr-only">Next</span>
   </a>
+</div>
 </div>

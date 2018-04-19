@@ -1,0 +1,7 @@
+<div class="row border posts-grid justify-content-start">
+    {% for post in include.posts %}
+    <div class="m-1 my-2 p-0 post" style="background-image: url({{ post.image | prepend: '/assets/images/' | prepend: site.asset_subpath | relative_url }});">
+        <div class="title"><h3>{{ post.title | upcase }}</h3></div>
+    </div>
+    {% endfor %}
+</div>

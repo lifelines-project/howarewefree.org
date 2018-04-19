@@ -1,12 +1,19 @@
 
 // child theme styles for How Are We Free
 
-// * * * Variables & Mixinx * * * //
+// * * * Variables & Mixins * * * //
 
 // fonts
 $header-font: "cooper_hewittmedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body-font: "cooper_hewittbook", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $emphasis-font: "londrina_outline", sans-serif;
+
+@mixin opacity-transition(){
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
+}
 
 // * * * Global * * * //
 
@@ -14,9 +21,13 @@ h1, h2, h3, h4, h5, h6, #mainNav {
     font-family: $header-font;
 }
 
-nav#mainNav.navbar.fixed-top.is-fixed {
-    top: 0;
+body, p {
+    font-family: $body-font;
+}
 
+nav#mainNav.navbar.fixed-top.is-fixed {
+
+    top: 0;
     &.is-visible {
         transform: unset;
         -moz-transform: unset;
@@ -27,18 +38,104 @@ nav#mainNav.navbar.fixed-top.is-fixed {
 
 // * * * default Pages * * * //
 
+nav#mainNav {
+    background-color: rgba($gray-600, .75);
+    line-height: 1rem;
+}
+
+nav#mainNav + .container {
+    margin-top: 5rem;
+}
+
+// * * * Contributors * * * //
+
 .default {
+    .contributors {
+        
+        flex-direction: column;
 
-    nav#mainNav {
-        background-color: rgba($gray-600, .75);
-    }
-
-    > .container {
-        margin-top: 5rem;
+        p {
+            float: right;
+            width: 75%;
+            @media screen and (max-width: 992px) { width: 100%; }
+        }
     }
 }
 
+// * * * Contributor * * * //
 
+.contributor {
+
+    .contributors {
+
+        border: unset !important;
+
+        &>div {
+            padding-left: 0 !important;
+            margin-right: 5rem;
+        }
+
+        p {
+            display: none;
+        }
+    }
+}
+
+// * * * Posts * * * //
+
+.posts-grid {
+    .post {
+        width: 17rem;
+        height: 17rem;
+        background-color: $gray-900;
+        background-size: cover;
+        background-position: 50% 50%;
+
+        .title {
+            position: relative;
+            top: 0;
+            opacity: 0;
+            @include opacity-transition();
+            height: 100%;
+            width: 100%;
+            background: $gray-600;
+
+            h3 {
+                text-align: center;
+                position: inherit;
+                color: $gray-300;
+                top: 25%;
+            }
+        }
+
+        &:hover .title {
+            opacity: .85;
+        }
+    }
+}
+
+// * * * Gallery * * * //
+
+.featured {
+
+    nav#mainNav {
+        background-color: rgba($gray-300,0);
+    }
+
+    nav#mainNav+.container-fluid {
+        padding: 0rem;
+    }
+
+    .carousel-item {
+        max-height: 100vh !important;
+    }
+
+    .carousel-caption p {
+        text-align: left;
+        background-color: rgba($gray-900, .75);
+        padding: 1rem !important;
+    }
+}
 // * * * Splash * * * //
 
 .splash header.masthead {
@@ -52,9 +149,9 @@ nav#mainNav.navbar.fixed-top.is-fixed {
         padding-top: 5rem;
     }
 
-    .page-heading h1, span.subheading {
+    .page-heading h1, span.subheading p {
         background-color: rgba($gray-900, .75);
-        padding: 0 1rem;        
+        padding: 0.5rem 1rem;        
     }
 
     .page-heading span.subheading {
