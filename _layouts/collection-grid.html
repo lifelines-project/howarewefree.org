@@ -2,4 +2,20 @@
 layout: default
 ---
 
-Grid based layout for a collection items or post categories
+<div class="container">
+
+<div class="row">
+    <h1>{{page.category | upcase}}</h1>
+</div>
+
+{% if page.category %}
+
+{% assign posts = site.works | where: 'categories', page.category %}
+{% elsif page.contributor %}
+
+{% assign posts = site.works | where: 'contributors', page.contributors %}
+
+{% endif %}
+
+{% include posts-grid.html posts = posts %}
+</div>

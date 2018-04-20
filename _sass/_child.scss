@@ -59,6 +59,19 @@ nav#mainNav + .container {
             width: 75%;
             @media screen and (max-width: 992px) { width: 100%; }
         }
+
+        div {
+            width: 10rem;
+        }
+
+        div .cont-img {
+            height: 10rem;
+            width: 10rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+        }
     }
 }
 
@@ -85,12 +98,12 @@ nav#mainNav + .container {
 
 .posts-grid {
     .post {
-        width: 17rem;
-        height: 17rem;
+        height: 15rem;
         background-color: $gray-900;
         background-size: cover;
         background-position: 50% 50%;
-
+        padding: 0;
+        
         .title {
             position: relative;
             top: 0;

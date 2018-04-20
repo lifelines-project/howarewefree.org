@@ -16,9 +16,7 @@ Features a grid of the related posts followed by the bio information of the cont
 
 <div class="row">
 
-    {% assign c = page.contributors %}
-
-    {% assign g = site.data.contributors[c] %}
+    {% assign g = site.data.contributors.collaborators[page.contributors] %}
     
     {% include contributors-grid.html group = g %}
 

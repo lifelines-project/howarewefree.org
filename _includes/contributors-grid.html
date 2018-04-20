@@ -2,15 +2,17 @@
 
     {% for c in include.group %}
 
+    {% assign c_info = site.data.contributors.info[c] %}
+
     <div class="w-100 p-2 pb-4">
 
     <div class="float-left">
-    <img class="pb-4" style="max-height: 225px" src="{{ c.image }}" alt="">
+    <div class="pb-4 cont-img" style="background-image: url({{ c_info.image | prepend: '/' | prepend: site.prose.media | prepen: site.asset_subpath | relative_url }})"></div>
 
-    <h3>{{ c.name }}</h3>
+    <h3>{{ c }}</h3>
     </div>
 
-    {{ c.bio | markdownify }}
+    {{ c_info.bio | markdownify }}
 
     </div>
 

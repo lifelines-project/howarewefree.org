@@ -11,9 +11,9 @@ class: default
 
 <div>
     
-{% for group in site.data.contributors %}
-    
-    {% assign g = group[1] %}
+{% for c in site.data.contributors.collaborators %}
+
+    {% assign g = c[1] %}
     {% include contributors-grid.html group = g %}
 
 {% endfor %}

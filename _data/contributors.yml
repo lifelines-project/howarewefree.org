@@ -1,14 +1,43 @@
-group1:
-  - name: Marco Polo
-    image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/344px-Marco_Polo_-_costume_tartare.jpg
-    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
-  - name: Narco Bolo
-    image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg/382px-Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
-    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
-group2:
-  - name: Barco Dolo
-    image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/344px-Marco_Polo_-_costume_tartare.jpg
-    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
-  - name: Carco Folo
-    image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg/382px-Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
-    bio: was an Italian[2] merchant, explorer, and writer, born in the Republic of Venice.[3][4][5][6][7] His travels are recorded in Livres des merveilles du monde (Book of the Marvels of the World, also known as The Travels of Marco Polo, c. 1300), a book that described to Europeans the wealth and great size of China, its capital Peking, and other Asian cities and countries.
+info:
+  Felix Rosado:
+    image: Phill.jpg
+    bio: Felix Rosado is cofounder and co-coordinator of Let's Circle Up, a restorative justice project based at Graterford State Prison. Originally from Reading, PA, he has been fighting a death by incarceration sentence since 1995. He also co-coordinates the Alternatives to Violence Project and is a member of the Inside-Out Graterford Think Tank. In 2016, he earned his Bachelor of Interdisciplinary Studies degree from Villanova University. He is an advisor to Decarcerate PA, as well as to Eastern State Penitentiary's Prisons Today Exhibit and Returning Citizens Tour Guide Program. As a member of Right 2 Redemption (a founding organization of the Coalition to Abolish Death by Incarceration) and Lifelines, he seeks to end the practice of caging humans until death.
+  Kate DeCiccio:
+    image: Kate.jpg
+    bio: Kate DeCiccio is an artist, educator and cultural organizer with a background in mental health. Her work focuses on using portraiture for creating counter-narratives to address issues including police brutality, interrogating whiteness, the prison industrial complex, and gentrification. Before working full time as an artist, Kate taught at San Quentin Prison, Leadership High School, and Capitol Hill Arts workshop, and worked as a mental health and substance abuse counselor in a residential program designed to support successful community reintegration after an acute psychiatric break. Kate's approach to storytelling and portraiture is informed by her experiences working in social services and studying the importance of personal narratives. Learn more at http://kdeciccio.wixsite.com/k8deciccio
+  Terri Harper:
+    image: Terri.png
+    bio: Terri Harper is a writer, a member of the LifeLines project, the Coalition to Abolish Death By Incarceration, and the PA prison society, and is the current president of the Muncy Inmates Organization. She loves to cook, write, read, and laugh. As the seasons continue to change in her life and the lives around her, she is actively doing all she can to change her actions and their outcomes, so the world around her and at large can be better in some way. Originally from Philadelphia, she’s been serving a Death By Incarceration sentence for the last 27 years.
+  Noelle Lorraine Williams:
+    image: Noelle.jpg
+    bio: Noelle Lorraine Williams is a conceptual artist living and working in Newark, NJ. She strives to build engaged communities and utilize public dialogue, relying on sculpture, multimedia practices, events and performance. She received her Bachelor of Arts Degree in Social and Historical Inquiry from The New School for Social Research, and is currently a graduate student at Rutgers University-Newark studying American Studies with a focus on Public Humanities. She has Cultural Center, Skylight Gallery, and Newark Arts Council and Victory Hall, among others. She has also served as curator and coordinator on various projects, including her ongoing conceptual project “The Black Women’s Fairy Tale Museum.” She also continues to engage her multidisciplinary art practice as a path to social awareness and spiritual liberation. Learn more at http://www.noellelorrainewilliams.com/exhibited in New York and New Jersey, including the Newark Museum, Jersey City Museum, Paul Robeson Gallery at Rutgers University, Rush Arts Gallery, Caribbean 
+  Charles Boyd:
+    image: Charles.jpg
+    bio: Charles Boyd has been fighting a Death By Incarceration (DBI) sentence for the past thirty-five years. He is co-founder of the Let's Circle Up (LCU) Restorative Justice project and the internal coordinator for the Alternatives to Violence Project (AVP), which focuses on community building and conflict resolution. He has been a member of the Graterford Inside-Out Think Tank for fifteen years. He volunteers as a Hospice Caretaker and works in the Alcohol and Other Drugs department as a Certified Peer Supporter. Charles has a BA in Interdisciplinary Studies from Villanova University. He is an environmentalist who loves music, art, and creating safe spaces where people can discover their personal and collective sense of agency. He is committed to ending the inhumane practices of DBI sentences and mass incarceration in general. 
+  Makeba KEEBS Rainey:
+    image: Makeba.jpg
+    bio: Makeba “KEEBS” Rainey is a Harlem native inspired by her community and fellow emerging visual and performance artists. She is the founder of Black Capital Coalition (BCC), which promotes both visual and performance artists from Harlem through creative collaborations between artists, businesses, and cultural institutions. BCC directs attention to young Harlem artists by teaming up with other young creatives; videographers, musicians, performing artists, and writers; to merge audiences andincrease their collective fan-base. She currently lives in Philadelphia. Learn more at http://www.justcallmekeebs.com/
+  Dawud Lee:
+    bio: My name is David Lee aka Dawud. Most people inside of PA prisons refer to me as Dawud, and I unfortunately have spent the last 27 years in prison for a crime I did not commit. Over 25 of those years have been dedicated to educating myself and others, and utilizing my education in an effort to fight for my release from captivity, and toward creating a truly liberated social arrangement here in the United States. The fight for freedom, collective empowerment, and justice are what keeps me going in my darkest hours. I grew up in an impoverished North Philadelphia community, and spent much of my time on the outside running the streets without any purpose or direction. It was not until after my capture that I began to study the political arrangement of this empire and started connecting the exploitative and political dots. My political, historical, and other related studies have taught me many important lessons about my former underdevelopment and the general underdevelopment of the masses in this social arrangement.
+  Alma:
+    image: Alma.jpg
+  Gb:
+    image: Gb.jpeg
+  Avis:
+    image: Avis.png
+  Mechie Scott:
+    image: Mechie.png
+    bio: My name is Marie Scott. My friends call me Mechie. I nicknamed myself after my best friend, Peachie, whose real name is Sharon Wiggins. She is deceased now, but as a teenager I always wanted to grow up to be like her. Because of Peachie, today I am proud to be who I am. I have two children, a son and a daughter. In 2008, I lost my son to a motorcycle accident. I thought I could lose my mind because we always thought that I would be released one day to share time with both of my children. My daughter’s name is Gretta.
+  Robin:
+    image: Robin.jpg
+  Matice:
+    image: Matice.jpg
+  Clinton Walker:
+    image: Nkechi.png
+    bio: My name is Clinton Walker. Some may also know me as Nkechi, which means “Loyal.” I am 34. I’m from Philadelphia and have been in prison for 17 years. I am a Juvenile Lifer, which is one who is serving a Life Sentence given to them for a crime they were directly involved in when under the age of 18. I’m a writer, a reader, and a self-proclaimed singer, though many of the people who has heard my vocals would strongly oppose the statement of me being a singer, for reasons I can’t quite put my finger on.
+collaborators:
+  group1: ['Felix Rosado', 'Kate DeCiccio']
+  group2: ['Terri Harper', 'Noelle Lorraine Williams']
+  group3: ['Charles Boyd', 'Makeba KEEBS Rainey']
+  group3: ['Alma']
+  group4: ['Clinton Walker']
