@@ -1,21 +1,13 @@
-    <div class="d-flex p-2 border contributors">
-
-    {% for c in include.group %}
-
-    {% assign c_info = site.data.contributors.info[c] %}
+{% assign c = include.c %}
 
     <div class="w-100 p-2 pb-4">
 
     <div class="float-left">
-    <div class="pb-4 cont-img" style="background-image: url({{ c_info.image | prepend: '/' | prepend: site.prose.media | prepen: site.asset_subpath | relative_url }})"></div>
+    <div class="pb-4 cont-img" style="background-image: url({{ c.image | prepend: '/' | prepend: site.prose.media | prepen: site.asset_subpath | relative_url }})"></div>
 
-    <h3>{{ c }}</h3>
+    <h3>{{ c.name | remove: '\' }}</h3>
     </div>
-
-    {{ c_info.bio | markdownify }}
-
-    </div>
-
-    {% endfor %}
+    
+    {{ c.bio | markdownify }}
 
     </div>

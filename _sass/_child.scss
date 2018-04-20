@@ -49,48 +49,28 @@ nav#mainNav + .container {
 
 // * * * Contributors * * * //
 
-.default {
-    .contributors {
-        
-        flex-direction: column;
+.contributors {
+    
+    flex-direction: column;
 
-        p {
-            float: right;
-            width: 75%;
-            @media screen and (max-width: 992px) { width: 100%; }
-        }
-
-        div {
-            width: 10rem;
-        }
-
-        div .cont-img {
-            height: 10rem;
-            width: 10rem;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 1rem;
-            margin-bottom: 1rem;
-        }
+    p {
+        float: right;
+        width: 75%;
+        margin-top: 0;
+        @media screen and (max-width: 992px) { width: 100%; }
     }
-}
 
-// * * * Contributor * * * //
+    div {
+        width: 10rem;
+    }
 
-.contributor {
-
-    .contributors {
-
-        border: unset !important;
-
-        &>div {
-            padding-left: 0 !important;
-            margin-right: 5rem;
-        }
-
-        p {
-            display: none;
-        }
+    div .cont-img {
+        height: 10rem;
+        width: 10rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
     }
 }
 

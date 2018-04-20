@@ -7,19 +7,16 @@ class: default
 
 <div class="container">
 
-<div class="row">
+    <div class="row p-2 border contributors">
 
-<div>
+    {% for curr in site.data.contributors.info %}
+
+    {% assign info = curr[1] %}
+
+    {% include contributors-grid.html c = info %}
     
-{% for c in site.data.contributors.collaborators %}
-
-    {% assign g = c[1] %}
-    {% include contributors-grid.html group = g %}
-
-{% endfor %}
-
-</div>
-
+    {% endfor %}
+    </div>
 </div>
 
 </div>

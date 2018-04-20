@@ -1,6 +1,6 @@
 ---
 layout: contributor
-contributors: group1
-permalink: /group1/
+contributors: phill and kate
+permalink: /felix-rosado/
 class: contributor
 ---

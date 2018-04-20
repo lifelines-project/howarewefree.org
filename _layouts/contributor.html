@@ -14,11 +14,15 @@ Features a grid of the related posts followed by the bio information of the cont
 
 <!-- contributors -->
 
-<div class="row">
+<div class="row p-2 border contributors">
 
-    {% assign g = site.data.contributors.collaborators[page.contributors] %}
-    
-    {% include contributors-grid.html group = g %}
+{% for curr in site.data.contributors.collaborators[page.contributors] %}
+
+    {% assign info = site.data.contributors.info[curr] %}
+
+    {% include contributors-grid.html c = info %}
+
+{% endfor %}
 
 </div>
 </div>
