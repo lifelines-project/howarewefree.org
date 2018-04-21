@@ -145,6 +145,10 @@ nav#mainNav + .container {
 
     nav#mainNav {
         background-color: rgba($gray-300,0);
+
+        @media screen and (max-width: 768px){
+            background-color: rgba($gray-600, .75);
+        }
     }
 
     nav#mainNav+.container-fluid {
