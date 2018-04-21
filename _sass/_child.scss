@@ -196,10 +196,13 @@ nav#mainNav + .container {
 
 .splash header.masthead {
 
-    height: 100vh;
     background-attachment: fixed;
     background-position: 50% 20%;
     background-size: 132%;
+    
+    @media screen and (max-width: 768px) {
+        margin-top: 6em;    
+    }
     
     .page-heading {
         padding-top: 5rem;
