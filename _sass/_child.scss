@@ -73,7 +73,13 @@ nav#mainNav {
 }
 
 nav#mainNav + .container {
-    margin-top: 5rem;
+    margin-top: 6rem;
+}
+
+nav#mainNav + .jumbotron {
+    @media screen and (max-width: 576px) {
+        margin-top: 6rem;
+    }
 }
 
 // * * * Contributors * * * //
@@ -163,7 +169,7 @@ nav#mainNav + .container {
 
         height: 100vh;
         @media screen and (max-width: 768px) {
-            padding-top: 4rem;
+            padding-top: 6rem;
         }
 
         img {
