@@ -201,7 +201,8 @@ nav#mainNav + .container {
     background-size: 132%;
     
     @media screen and (max-width: 768px) {
-        margin-top: 6em;    
+        margin-top: 5.75rem;
+        background-size: cover;   
     }
     
     .page-heading {
