@@ -2,8 +2,22 @@
 layout: default
 ---
 
-Layout for a single item from a collection
 
-- Image
-- Text
-- Related Posts widget
+    <div class="jumbotron jumbotron-fluid mx-auto pb-0">
+        <img src="{{ page.image | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
+    </div>
+
+    <div class="container">
+    <div class="row p-2 border contributors">
+
+    {% for curr in site.data.contributors.collaborators[page.contributors] %}
+
+        {% assign info = site.data.contributors.info[curr] %}
+
+        {% include contributors-grid.html c = info %}
+
+    {% endfor %}
+
+</div>
+    
+</div>

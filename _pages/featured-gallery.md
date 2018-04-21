@@ -13,22 +13,29 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
 <div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
 
-  {% for work in site.works %}
+  {% assign featured = site.works | where: 'featured','true' %}
 
-  {% if work.featured == true %}  
+  {% for work in featured %}
 
   <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-  <img class="d-block w-100" src="{{ work.image | prepend: '/assets/images/' }}" alt="First slide">
+  <img class="d-block mx-auto" src="{{ work.image | prepend: '/assets/images/' }}" alt="First slide">
 
   {% if work.excerpt %}
   <div class="carousel-caption d-none d-md-block">
-    {{ work.excerpt | markdownify }}
+
+    {% assign c = site.data.contributors.collaborators[work.contributors][0] %}
+    {% assign a = site.data.contributors.collaborators[work.contributors][1] %}
+    {% assign url = c | downcase | replace: " ","-" | lstrip | prepend: '/' %}
+    {% assign url = url | relative_url %}
+    <a href="{{ url }}"><p>
+    {{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}
+    </p></a>
+
   </div>
   {% endif %}
 
   </div>
 
-  {% endif %}
   {% endfor %}
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

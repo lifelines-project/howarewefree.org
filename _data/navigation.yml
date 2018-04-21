@@ -1,7 +1,15 @@
 menu:
-  - title: About the Exhibit
+  - title: About
     url: "http://lifelines-project.org/exhibit"
-  - title: Gallery
-    url: /gallery/
+  - title: Works
+    children:
+      - title: All
+        url: /works/
+      - title: Freedom
+        url: /freedom/
+      - title: Incarceration
+        url: /incarceration/
+      - title: Portrait
+        url: /portrait/
   - title: Contributors
     url: /contributors/

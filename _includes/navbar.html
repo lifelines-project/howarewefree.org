@@ -1,4 +1,5 @@
 <!-- Navigation -->
+
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title }}</a>
@@ -20,9 +21,25 @@
           {% endif %}
         {% endcapture %}
 
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url }}">{{ link.title | uppercase }}</a>
+        {% if link.children != null %}
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title | upcase }}</a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for child in link.children %}
+              <a href="{{ child.url | relative_url }}" class="dropdown-item">{{ child.title | upcase }} </a>
+            {% endfor %}
+          </div>
         </li>
+
+        {% else %}
+
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url }}">{{ link.title | uppercase }}</a>
+          </li>
+
+        {% endif %}
 
         {% endfor %}
 

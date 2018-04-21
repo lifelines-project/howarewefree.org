@@ -40,7 +40,36 @@ nav#mainNav.navbar.fixed-top.is-fixed {
 
 nav#mainNav {
     background-color: rgba($gray-600, .75);
-    line-height: 1rem;
+    line-height: 2rem;
+
+    .navbar-brand {
+        font-size: 1.75rem;
+    }
+
+    #navbarResponsive li.nav-item a:hover {
+        color: darken($gray-600,10%);
+    }
+
+    #navbarResponsive li.nav-item a {
+        font-size: 1rem;
+        color: $gray-300;
+    }
+
+    #navbarResponsive .dropdown-menu.show {
+        background-color: rgba($gray-600, .5);
+        top: 1.85rem;
+        min-width: unset;
+        line-height: .75rem;
+        border-radius: .1rem;
+
+        a.dropdown-item {
+            font-size: .75rem;
+        }
+
+        a.dropdown-item:hover {
+            background-color: rgba($gray-600, 0);
+        }
+    }
 }
 
 nav#mainNav + .container {
@@ -60,15 +89,16 @@ nav#mainNav + .container {
         @media screen and (max-width: 992px) { width: 100%; }
     }
 
-    div {
+    a {
         width: 10rem;
     }
 
-    div .cont-img {
+    a .cont-img {
         height: 10rem;
         width: 10rem;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: top;
         border-radius: 1rem;
         margin-bottom: 1rem;
     }
@@ -79,9 +109,11 @@ nav#mainNav + .container {
 .posts-grid {
     .post {
         height: 15rem;
+        width: 15rem;
         background-color: $gray-900;
         background-size: cover;
-        background-position: 50% 50%;
+        background-position: top;
+        background-repeat: no-repeat;
         padding: 0;
         
         .title {
@@ -119,14 +151,45 @@ nav#mainNav + .container {
         padding: 0rem;
     }
 
-    .carousel-item {
-        max-height: 100vh !important;
+    .carousel-inner {
+        background-color: $gray-600;
     }
 
-    .carousel-caption p {
-        text-align: left;
+    .carousel-item {
+
+        height: 100vh;
+        @media screen and (max-width: 768px) {
+            padding-top: 4rem;
+        }
+
+        img {
+
+            height: 100%; 
+
+            @media screen and (max-width: 768px) {
+                height: auto;
+                width: 100% !important;
+            }
+
+    }
+    }
+
+    .carousel-caption   a p {
+        // text-align: left;
         background-color: rgba($gray-900, .75);
         padding: 1rem !important;
+        color: $gray-300;
+        font-weight: 300;
+        font-family: $body-font;
+    }
+
+    .carousel-caption {
+        opacity: 0;
+        @include opacity-transition();
+    }
+
+    .carousel-item:hover .carousel-caption {
+        opacity: 1;
     }
 }
 // * * * Splash * * * //
@@ -142,9 +205,17 @@ nav#mainNav + .container {
         padding-top: 5rem;
     }
 
-    .page-heading h1, span.subheading p {
+    .page-heading h1, 
+    span.subheading p,
+    span.subheading a {
         background-color: rgba($gray-900, .75);
         padding: 0.5rem 1rem;        
+    }
+
+    span.subheading a {
+        color: $gray-300;
+        font-weight: 300;
+        font-family: $body-font;
     }
 
     .page-heading span.subheading {

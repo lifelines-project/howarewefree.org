@@ -1,6 +1,6 @@
 ---
 layout: collection-grid
 category: 'freedom'
-contributors: group1
 permalink: /freedom/
+excerpt: When you visualize freedom, what does it look like?
 ---

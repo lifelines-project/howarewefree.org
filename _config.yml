@@ -35,7 +35,7 @@ asset_subpath: ""
 collections:
   works:
     output: true
-    layout: default
+    layout: collection-item
     permalink: /:collection/:name
 
 defaults:
@@ -43,7 +43,7 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: works
     values:
-      layout: default
+      layout: collection-item
 
 # Prose settings
 prose:

@@ -18,5 +18,3 @@ class: default
     {% endfor %}
     </div>
 </div>
-
-</div>

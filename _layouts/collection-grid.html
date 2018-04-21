@@ -7,10 +7,20 @@ layout: default
 <div class="row">
     <h1>{{page.category | upcase}}</h1>
 </div>
+<div class="row">
+    {% if page.excerpt %}
+        <h4>{{ page.excerpt }}</h4>
+    {% endif %}
+</div>
 
-{% if page.category %}
+{% if page.category == 'works' %}
+
+{% assign posts = site.works %}
+
+{% elsif page.category %}
 
 {% assign posts = site.works | where: 'categories', page.category %}
+
 {% elsif page.contributor %}
 
 {% assign posts = site.works | where: 'contributors', page.contributors %}
