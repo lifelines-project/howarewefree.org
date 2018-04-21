@@ -58,7 +58,7 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - "*.txt"
-  - vendor
+  - vendor/**
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
