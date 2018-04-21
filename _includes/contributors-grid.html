@@ -2,7 +2,7 @@
 
     <div class="w-100 p-2 pb-4">
 
-    <a class="d-block float-left" href="{{ c.link | relative_url }}">
+    <a class="d-block float-left" href="{{ c.link | prepend: site.asset_subpath | relative_url }}">
     <div class="pb-4 cont-img" style="background-image: url({{ c.image | prepend: '/' | prepend: site.prose.media | prepen: site.asset_subpath | relative_url }})"></div>
 
     <h3>{{ c.name | remove: '\' }}</h3>

@@ -4,12 +4,12 @@ menu:
   - title: Works
     children:
       - title: All
-        url: /works/
+        url: /works
       - title: Freedom
-        url: /freedom/
+        url: /freedom
       - title: Incarceration
-        url: /incarceration/
+        url: /incarceration
       - title: Portrait
-        url: /portrait/
+        url: /portrait
   - title: Contributors
-    url: /contributors/
+    url: /contributors
