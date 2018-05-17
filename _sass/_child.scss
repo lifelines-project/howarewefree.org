@@ -36,6 +36,11 @@ nav#mainNav.navbar.fixed-top.is-fixed {
     }
 }
 
+span.email {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
 // * * * default Pages * * * //
 
 nav#mainNav {
@@ -142,6 +147,26 @@ nav#mainNav + .jumbotron {
         &:hover .title {
             opacity: .85;
         }
+    }
+}
+
+.post-single {
+    
+    img { 
+        max-width: 50%;
+        height: auto;
+        margin-left: -15px;
+
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+
+    p img { margin-left: 0; }
+
+    .post-meta.date {
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 }
 

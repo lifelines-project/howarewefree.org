@@ -1,0 +1,16 @@
+<div class="row post-single border-bottom">
+    <div class="row">
+        <h2 class='w-100'>{{ post.title | upcase }}</h2>
+        <p class="post-meta date">{{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+
+    {% if post.image %}
+    <div class="img">
+        <img src="{{ post.image |  prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }}" class="img-fluid" alt="">
+    </div>
+    {% endif %}
+    
+    <div class="row">
+        {{ post }}
+    </div>
+</div>
