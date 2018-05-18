@@ -39,7 +39,6 @@ defaults:
 prose:
   media: 'assets/images'
   rooturl: '_posts'
-  media: 'assets/img'
   ignore:
     - index.md
     - _config.yml
@@ -70,6 +69,7 @@ prose:
           label: "Published"
           help: Check if you'd like to see this post published to the public site
           value: false
+
 
 
 # Build settings
