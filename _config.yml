@@ -89,7 +89,7 @@ prose:
               value: 'portrait'
       - name: contributors
         field:
-          element: "multiselect"
+          element: "select"
           label: "Contributors"
           alterable: false
           options:
