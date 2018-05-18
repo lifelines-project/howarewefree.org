@@ -67,7 +67,7 @@ prose:
         field:
           element: "checkbox"
           label: "Published"
-          help: Check if you'd like to see this post published to the public site
+          help: "Check if you'd like to see this post published to the public site"
           value: false
     _works:
       - name: "title"
@@ -109,7 +109,7 @@ prose:
         field:
           element: "checkbox"
           label: "Featured"
-          help: Check if you'd like to see this post appear in the featured gallery
+          help: "Check if you'd like to see this post appear in the featured gallery"
           value: false
       - name: "image"
         field:
@@ -120,7 +120,7 @@ prose:
         field:
           element: "checkbox"
           label: "Published"
-          help: Check if you'd like to see this post published to the public site
+          help: "Check if you'd like to see this post published to the public site"
           value: true
 
 
