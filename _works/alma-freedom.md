@@ -1,7 +1,6 @@
 ---
 title: Alma Freedom
-categories:
-  - freedom
+categories: ['freedom']
 contributors: nkechi and alma
 excerpt: >
   When they had thus persevered during eight days, a divine revelation came at
