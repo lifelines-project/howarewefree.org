@@ -39,7 +39,6 @@ defaults:
 prose:
   media: 'assets/images'
   rooturl: '_posts'
-  media: 'assets/img'
   ignore:
     - index.md
     - _config.yml
@@ -68,7 +67,7 @@ prose:
         field:
           element: "checkbox"
           label: "Published"
-          help: Check if you'd like to see this post published to the public site
+          help: "Check if you'd like to see this post published to the public site"
           value: false
     _works:
       - name: "title"
@@ -110,18 +109,18 @@ prose:
         field:
           element: "checkbox"
           label: "Featured"
-          help: Check if you'd like to see this post appear in the featured gallery
+          help: "Check if you'd like to see this post appear in the featured gallery"
           value: false
       - name: "image"
         field:
           element: "text"
           label: "Image file"
-          placeholder: Filename for the image
+          help: Filename for the image
       - name: "published"
         field:
           element: "checkbox"
           label: "Published"
-          help: Check if you'd like to see this post published to the public site
+          help: "Check if you'd like to see this post published to the public site"
           value: true
 
 
@@ -134,7 +133,7 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - "*.txt"
-  - vendor/**
+  - "vendor/**"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
