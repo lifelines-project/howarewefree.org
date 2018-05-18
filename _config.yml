@@ -1,18 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# howarewefree.org config settings
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# for serving locally, uncomment `asset_subpath` entry 
+
 title: HOW ARE WE FREE
 email: "lifelinesphilly@gmail.com"
 author: 'LifeLines: Voices Against the Other Death Penalty'
@@ -29,8 +18,9 @@ twitter_username: LifelinesPA
 facebook_username: lifelinespa
 instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
-asset_subpath: "/hawf/"
-# asset_subpath: ""
+# asset_subpath: "/hawf/"
+asset_subpath: ""
+ga_id: UA-73782411-2 # google analytics id
 
 collections:
   works:
@@ -48,6 +38,92 @@ defaults:
 # Prose settings
 prose:
   media: 'assets/images'
+  rooturl: '_posts'
+  media: 'assets/img'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "enter post title"
+          help: This will appear as the post title
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          help: Date of post affects in which order posts appear
+          value: CURRENT_DATETIME
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "choose existing or add categories"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: Check if you'd like to see this post published to the public site
+          value: false
+    _works:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "choose existing or add categories"
+          alterable: true
+          options:
+            - name: 'freedom'
+              value: 'freedom'
+            - name: 'incarceration'
+              value: 'incarceration'
+            - name: 'portrait'
+              value: 'portrait'
+      - name: contributors
+        field:
+          element: "multiselect"
+          label: "Contributors"
+          alterable: false
+          options:
+            - name: "Phill and Kate"
+              value: phill and kate
+            - name: "Terri and Noelle"
+              value: terri and noelle
+            - name: "Charles and Makeba"
+              value: charles and makeba
+            - name: "Nkechi and Alma"
+              value: nkechi and alma
+            - name: "Dawud and Matice"
+              value: dawud and matice
+            - name: "Mechie and Robin"
+              value: mechie and robin
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured"
+          help: Check if you'd like to see this post appear in the featured gallery
+          value: false
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image file"
+          placeholder: Filename for the image
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: Check if you'd like to see this post published to the public site
+          value: true
+
 
 # Build settings
 markdown: kramdown
@@ -76,8 +152,8 @@ exclude:
   - package.json
   - Rakefile
   - README
-  - assets/fonts
-  - assets/images
+  # - assets/fonts
+  # - assets/images
 keep_files:
   - .git
 encoding: "utf-8"
