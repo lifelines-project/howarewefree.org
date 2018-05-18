@@ -70,59 +70,6 @@ prose:
           label: "Published"
           help: Check if you'd like to see this post published to the public site
           value: false
-    _works:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "choose existing or add categories"
-          alterable: true
-          options:
-            - name: 'freedom'
-              value: 'freedom'
-            - name: 'incarceration'
-              value: 'incarceration'
-            - name: 'portrait'
-              value: 'portrait'
-      - name: contributors
-        field:
-          element: "multiselect"
-          label: "Contributors"
-          alterable: false
-          options:
-            - name: "Phill and Kate"
-              value: phill and kate
-            - name: "Terri and Noelle"
-              value: terri and noelle
-            - name: "Charles and Makeba"
-              value: charles and makeba
-            - name: "Nkechi and Alma"
-              value: nkechi and alma
-            - name: "Dawud and Matice"
-              value: dawud and matice
-            - name: "Mechie and Robin"
-              value: mechie and robin
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured"
-          help: Check if you'd like to see this post appear in the featured gallery
-          value: false
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image file"
-          placeholder: Filename for the image
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          help: Check if you'd like to see this post published to the public site
-          value: true
 
 
 # Build settings
