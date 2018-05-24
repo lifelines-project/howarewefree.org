@@ -10,4 +10,4 @@ We will be traveling with the exhibit across the state of Pennsylvania — to co
 
 ## Help Support *How Are We Free*
 
-Looking for other ways to support the project? Consider donating. Contributions to the project are gratefully accepted [here](http://lifelines-project.org/donate/.
+Looking for other ways to support the project? Consider donating. Contributions to the project are gratefully accepted [here](http://lifelines-project.org/donate/).
