@@ -3,7 +3,8 @@ title: Gb incarceration
 categories: ['incarceration']
 contributors: avis and gb
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+    "We look to our futures with hope and anticipation for lives better than we've ever had before. We come to realize that we made some mistakes in the past BUT we are not mistakes and although we are imprisoned we don't have to allow our past mistakes to define the sum of our whole selves."
 image: gb-incarceration-web.jpg
 featured: true
+featured_order: 3
 ---

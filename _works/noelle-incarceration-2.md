@@ -3,7 +3,8 @@ title: Noelle Incarceration 2
 categories: ['incarceration']
 contributors: terri and noelle
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+ "Picture a 20 year old walking through the jail’s gate, with a blank look on her face. As she's walking toward the infirmary for intake, she looks up at a clock and sees that the hands just keep spinning, moving time."
 image: noelle-incarceration-2-web.jpg
 featured: true
+featured_order: 10
 ---

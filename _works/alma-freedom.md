@@ -3,12 +3,9 @@ title: Alma Freedom
 categories: ['freedom']
 contributors: nkechi and alma
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at
-  length, in a dream, to a bishop of exemplary life, directing him to proceed in
-  search of a certain shoemaker (whose name is not known) having only one eye,
-  whom he should summon to the mountain, as a person capable of effecting its
-  removal, through the divine grace.A great quot
+  "I imagine myself wondering if I would go to a poetry jam, go hiking, or take classes learning the fox trot. In other words, freedom to me is choices and options with real opportunities to obtain those choices and options… Where there is no right to choose nor chance to advance then freedom cannot exist, whether it be in a relationship, neighborhood, prison or society."
 image: alma-freedom-web.jpg
 featured: true
 published: true
+featured_order: 7
 ---

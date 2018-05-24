@@ -1,8 +1,8 @@
 info:
   Emily Abendroth:
     name: Emily Abendroth
-    image: emily_abendroth_by_kenzie_green3_web_ready__profile.jpeg
-    bio: Emily Abendroth is a poet, teacher and anti-prison activist living in Philadelphia, Pennsylvania. She is an active organizer with Decarcerate PA (a grassroots campaign working to end mass incarceration in Pennsylvania) and is co-founder of Address This! (an education and empowerment project that provides innovative, social justice correspondence courses to individuals incarcerated in Pennsylvania).
+    image: emily.jpg
+    bio: "Emily Abendroth is a poet, teacher and anti-prison activist. Much of her creative work investigates state regimes of force and power, as well as individual and collective resistance strategies. Her books include *]Exclosures[* from Ahsahta Press and *The Instead*, a collaboration with fiction writer Miranda Mellis, from Carville Annex. She is a founding member of the Coalition to Abolish Death By Incarceration (a grassroots campaign working to end life without parole sentencing in Pennsylvania); *Address This!* (an education and empowerment project that provides innovative, social justice correspondence courses to individuals incarcerated in Pennsylvania); and the media project *LifeLines: Voices Against the Other Death Penalty*."
   Charles Boyd:
     name: Charles Boyd
     image: Charles.jpg
@@ -24,7 +24,7 @@ info:
     bio: Gb Kim is an artist and interdisciplinary scholar, working with scientists in hospitals and institutions throughout the U.S. and internationally. While the primary pursuit of her scholarship has been art, science, medicine, and technology have always informed her practice. She is currently interested in science fiction particularly as it functions as a space of creative exchange between science politics and the imaginative act. She is invested in art as a proposition and agentive vehicle that draws our attention to the politics of our technology, examines the social effects of science, and both creates and destroys these imagined social barriers. She currently works at the organizations, iBiology and the Ligo Project. Learn more at [http://www.gbkim.com/](http://www.gbkim.com/)
     link: /avis-lee
   David Dawud Lee:
-    name: David "Dawud" Lee
+    name: David “Dawud” Lee
     image: Dawud.png
     bio: David “Dawud” Lee is a cofounder of One Hood United (a platform for uniting community activists with conscious prisoners) and a founding member of the Coalition to Abolish Death By Incarceration. He is also part of the LifeLines Project, and serves on Decarcerate PA’s Inside Advisory Board. Originally from Philadelphia, he has been serving a Death By Incarceration sentence for the last 30 years for a crime he did not commit. Over 25 of those years have been dedicated to educating himself and others, to utilizing his education in an effort to fight for his release from captivity, and to creating a truly liberated social arrangement here in the United States. He is a prolific writer, mentor, and friend to many on both sides of the prison walls.
     link: /david-dawud-lee
@@ -45,10 +45,10 @@ info:
     link: /david-dawud-lee
   Layne Mullet:
     name: Layne Mullet
-    image:
-    bio: Outside the prison walls, LifeLines consists primarily of Layne Mullett and Emily Abendroth, who both live in Philadelphia and are founding members of Decarcerate PA and the Coalition to Abolition Death By Incarceration.
+    image: layne.jpg
+    bio: "Layne Mullet is founding member of Decarcerate PA and the Coalition to Abolish Death By Incarceration, and a co-creator of LifeLines: Voices Against the Other Death Penalty. She has been active in social justice movements for over a decade, organizing against gentrification, austerity, and the prison industrial complex, and working for the freedom of political prisoners. Her writing has been published in the journal Perspectives on Anarchist Theory, in the anthology *Life During Wartime: Resisting Counterinsurgency*, and in the forthcoming book *The Long Term*. Layne currently serves on the Community Advisory Board for Critical Resistance. She lives in Philadelphia."
   Makeba KEEBS Rainey:
-    name: Makeba "KEEBS" Rainey
+    name: Makeba “KEEBS” Rainey
     image: Makeba.jpg
     bio: Makeba “KEEBS” Rainey is a Harlem native inspired by her community and fellow emerging visual and performance artists. She is the founder of Black Capital Coalition (BCC), which promotes both visual and performance artists from Harlem through creative collaborations between artists, businesses, and cultural institutions. BCC directs attention to young Harlem artists by teaming up with other young creatives; videographers, musicians, performing artists, and writers; to merge audiences andincrease their collective fan-base. She currently lives in Philadelphia. Learn more at [http://www.justcallmekeebs.com/](http://www.justcallmekeebs.com/).
     link: /charles-boyd
@@ -68,7 +68,7 @@ info:
     bio: 'Marie “Mechie” Scott is an organizer, writer, and lifelong advocate for children of incarcerated parents. While she’s been incarcerated, she has written legislation, started support groups, and participated in numerous projects and organizations. She was born in Harlem, New York on the fourth of July and is the mother of two children. She is a writer and editor, as well as an aspiring pianist. She is featured in Howard Zehr’s book *Doing Life: Reflections of Men and Women Serving Life Sentences*. She has been serving a death by incarceration sentence for the last 45 years.'
     link: /marie-mechie-scott
   Clinton Nkechi Walker:
-    name: Clinton "Nkechi" Walker
+    name: Clinton “Nkechi” Walker
     image: Nkechi.png
     bio: Clinton “Nkechi” Walker is a an avid reader, a writer, and a poet. His poetry has been published in Apiary Magazine. He’s also a self-proclaimed singer, though many who have heard his vocals would strongly disagree. Though he’s had few opportunities for academic achievement, he takes pride in the fact that he’s been able to develop a strong mental strength and character despite the horrors, hardships, and assaults of the prison system. Originally from Philadelphia, he’s been serving a Juvenile Life Without Parole sentence for the last 18 years.
     link: /clinton-nkechi-walker

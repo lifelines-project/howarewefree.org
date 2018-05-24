@@ -3,7 +3,8 @@ title: Matice Freedom
 categories: ['freedom']
 contributors: dawud and matice
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+    "Without a quality education, health care, housing, and employment, how can human beings enjoy their lives? Without control over our communities and the police who operate within them as if they are a military force, how are we free? Without the collective sharing of power and resources, how are we free?"
 image: matice-freedom-web.jpg
 featured: true
+featured_order: 16
 ---

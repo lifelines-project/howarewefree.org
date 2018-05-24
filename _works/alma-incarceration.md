@@ -3,7 +3,8 @@ title: Alma Incarceration
 categories: ['incarceration']
 contributors: nkechi and alma
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+  "I began to see prison thru the eyes of the usually white, patriotic, blue collar corrections officer who is starting his shift. As I enter the facility, thru these eyes, I refuse to see a community of individuals who may be grandfathers, fathers, sons, brothers or husbands. … as I head to my assigned post, I see a place that can only be a battlefield full of adversaries."
 image: alma-incarceration-web.jpg
 featured: true
+featured_order: 6
 ---

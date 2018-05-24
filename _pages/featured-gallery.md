@@ -13,26 +13,28 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
 <div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
 
-  {% assign featured = site.works | where: 'featured','true' %}
+  {% assign featured = site.works | where: 'featured','true' | sort: 'featured_order' %}
 
   {% for work in featured %}
 
   <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
   <img class="d-block mx-auto" src="{{ work.image | prepend: '/assets/images/' | prepend: site.asset_subpath }}" alt="First slide">
 
-  {% if work.excerpt %}
   <div class="carousel-caption d-none d-md-block">
 
     {% assign c = site.data.contributors.collaborators[work.contributors][0] %}
     {% assign a = site.data.contributors.collaborators[work.contributors][1] %}
     {% assign url = c | downcase | replace: " ","-" | lstrip | prepend: '/' %}
     {% assign url = url | relative_url %}
-    <a href="{{ url }}"><p>
-    {{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}
-    </p></a>
+
+    {% if work.excerpt.size > 1 %}
+        {{ work.excerpt | markdownify }}
+        <a href="{{ url }}">{{  site.data.contributors.info[c].name }}</a>
+    {% else %}
+        <a href="{{ url }}">{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</a>
+    {% endif %}
 
   </div>
-  {% endif %}
 
   </div>
 

@@ -3,7 +3,15 @@ title: Kate Portrait
 categories: ['portrait']
 contributors: phill and kate
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+    "I look up<br/>
+    Give thanks<br/>
+    In through my nostrils<br/>
+    Out through my mouth<br/>
+    This is today<br/>
+    The first of the rest<br/>
+    *My life my life my life my life<br/>
+    In the sunshine*."
 image: kate-portrait-web.jpg
 featured: true
+featured_order: 17
 ---

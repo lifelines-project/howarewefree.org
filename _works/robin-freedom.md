@@ -3,7 +3,8 @@ title: Robin Freedom
 categories: ['freedom']
 contributors: mechie and robin
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+  "Imagine the planets. Here’s Earth and here’s Mars. I’m on Mars in my prison garb, waiting to be transferred back to Earth after 44+ years served on Mars. I’m awaiting transportation back to a planet, a life that is so new to me, it’s like I’m a Martian from Mars coming to Earth for the first time."
 image: robin-freedom-web.png
 featured: true
+featured_order: 12
 ---

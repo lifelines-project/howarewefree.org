@@ -25,7 +25,7 @@ author_url: "http://lifelines-project.org/"
 
 # dev
 asset_subpath: ""
-ga_id:
+ga_id: ""
 
 collections:
   works:
@@ -92,13 +92,9 @@ prose:
               value: 'incarceration'
             - name: 'portrait'
               value: 'portrait'
-      - name: contributors
-        field:
-<<<<<<< HEAD
-          element: "multiselect"
-=======
+      - name: "contributors"
+        -field:
           element: "select"
->>>>>>> ea796f1193522f552d5e8975a5601cb3ff3ae3f7
           label: "Contributors"
           alterable: false
           options:
@@ -120,6 +116,11 @@ prose:
           label: "Featured"
           help: "Check if you'd like to see this post appear in the featured gallery"
           value: false
+      - name: "featured_order"
+        field:
+          element: "text"
+          label: "Featured Gallery Order"
+          help: "Enter the numerical order in which works should appear"
       - name: "image"
         field:
           element: "text"
@@ -135,6 +136,10 @@ prose:
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
 theme: jekyll-theme-clean-blog
 include:
   - _pages

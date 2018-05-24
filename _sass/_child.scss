@@ -8,6 +8,8 @@ $header-font: "cooper_hewittmedium", "Helvetica Neue", Helvetica, Arial, sans-se
 $body-font: "cooper_hewittbook", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $emphasis-font: "londrina_outline", sans-serif;
 
+$link-color: rgb(188, 86, 60);
+
 @mixin opacity-transition(){
       -webkit-transition: opacity .5s;
       -moz-transition: opacity .5s;
@@ -23,6 +25,10 @@ h1, h2, h3, h4, h5, h6, #mainNav {
 
 body, p {
     font-family: $body-font;
+}
+
+a:hover {
+    text-decoration-color: $link-color;
 }
 
 nav#mainNav.navbar.fixed-top.is-fixed {
@@ -43,6 +49,14 @@ span.email {
 
 // * * * default Pages * * * //
 
+.row > p + p {
+    margin-top: 0;
+}
+
+.row p + h2 {
+    margin-top: 1rem;
+}
+
 nav#mainNav {
     background-color: rgba($gray-600, .75);
     line-height: 2rem;
@@ -52,7 +66,7 @@ nav#mainNav {
     }
 
     #navbarResponsive li.nav-item a:hover {
-        color: darken($gray-600,10%);
+        color: lighten($link-color,10%);
     }
 
     #navbarResponsive li.nav-item a {
@@ -209,15 +223,23 @@ nav#mainNav + .jumbotron {
     }
     }
 
-    .carousel-caption   a p {
-        // text-align: left;
+    .carousel-caption  p, 
+    .carousel-caption  a {
+
+        text-align: left;
         background-color: rgba($gray-900, .75);
         padding: 1rem !important;
         color: $gray-300;
         font-weight: 300;
         font-family: $body-font;
     }
-
+    .carousel-caption  p {
+        font-size: 2.5rem;
+        line-height: 1.25em;
+    }
+    .carousel-caption  a{
+        font-size: 2rem;
+    }
     .carousel-caption {
         opacity: 0;
         @include opacity-transition();

@@ -3,7 +3,8 @@ title: Gb portrait
 categories: ['portrait']
 contributors: avis and gb
 excerpt: >
-  When they had thus persevered during eight days, a divine revelation came at length, in a dream, to a bishop of exemplary life, directing him to proceed in search of a certain shoemaker (whose name is not known) having only one eye, whom he should summon to the mountain, as a person capable of effecting its removal, through the divine grace.A great quot
+  "When I look in the faces around me, many of which I've watched for 37 years...I am awed by the beauty that the passing of time has gently carved into them; a crease here, a fold there, gray, silver and white hair, baby-blue rings encircling deep-brown-black pupils which continue to glimmer through their opaqueness."
 image: gb-portrait-web.jpg
 featured: true
+featured_order: 2
 ---

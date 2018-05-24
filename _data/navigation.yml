@@ -1,7 +1,11 @@
 menu:
   - title: About
     # url: "http://lifelines-project.org/exhibit"
-    url: /about
+    children:
+      - title: The Project
+        url: /about
+      - title: Get Involved
+        url: /get-involved
   - title: Works
     children:
       - title: Gallery
