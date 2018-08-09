@@ -4,7 +4,7 @@
 {% assign url = post.title | downcase | replace: " ","-" | lstrip | prepend: '/' %}
 {% assign url = url | prepend: 'works' | relative_url %}
 
-    <a class="d-block m-2 post" href="{{ url }}" style="background-image: url({{ post.image |  prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }});">
+    <a class="d-block m-2 post" href="{{ url }}" style="background-image: url({{ post.images[0] |  prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }});">
 
         {% assign c = site.data.contributors.collaborators[post.contributors][0] %}
         <div class="title"><h3>{{  site.data.contributors.info[c].name | upcase }}</h3></div>
