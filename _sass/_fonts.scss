@@ -37,15 +37,13 @@
 // Cooper Hewitt Styles
 
 @font-face {
-    font-family: 'cooper_hewittbold';
+    font-family: 'cooper_hewitt';
     src: url('fonts/cooperhewitt-bold.woff2') format('woff2'),
          url('fonts/cooperhewitt-bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-weight: bold;
 }
 @font-face {
-    font-family: 'cooper_hewittbook';
+    font-family: 'cooper_hewitt';
     src: url('fonts/cooperhewitt-book.woff2') format('woff2'),
          url('fonts/cooperhewitt-book.woff') format('woff');
     font-weight: normal;
@@ -64,14 +62,6 @@
     font-family: 'cooper_hewittmedium';
     src: url('fonts/cooperhewitt-medium.woff2') format('woff2'),
          url('fonts/cooperhewitt-medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'cooper_hewittbold';
-    src: url('fonts/cooperhewitt-bold.woff2') format('woff2'),
-         url('fonts/cooperhewitt-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

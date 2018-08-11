@@ -3,21 +3,42 @@ layout: default
 ---
 
 
+{% if page.image %}
+
     <div class="jumbotron jumbotron-fluid mx-auto pb-0">
         <img src="{{ page.image | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
     </div>
 
-    <div class="container">
+{% endif %}
+
+    <div class="container {{ page.categories[0] }}">
     <div class="row p-2 border contributors">
 
-    {% for curr in site.data.contributors.collaborators[page.contributors] %}
+    {% if page.categories[0] == 'response' %}
+
+        <div class="w-100">
+
+        <h3>Reflecting on the Project: {{ site.data.contributors.info[page.contributor].name }}</h3>
+
+        {{ site.responses | where: 'contributor', page.contributor }}
+
+        {% assign info =  site.data.contributors.info[page.contributor] %}
+
+        </div>
+
+    {% else %}
+
+        {% for curr in site.data.contributors.collaborators[page.contributors] %}
 
         {% assign info = site.data.contributors.info[curr] %}
 
+        {% endfor %}
+
+    {% endif %}
+
         {% include contributors-grid.html c = info %}
 
-    {% endfor %}
-
+</div>
 </div>
     
 </div>
