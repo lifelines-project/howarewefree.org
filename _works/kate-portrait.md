@@ -11,7 +11,8 @@ excerpt: >
     The first of the rest<br/>
     *My life my life my life my life<br/>
     In the sunshine*."
-image: kate-portrait-web.jpg
+images:
+    - kate-portrait-web.jpg
 featured: true
 featured_order: 17
 ---
