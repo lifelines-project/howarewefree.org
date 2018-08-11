@@ -20,15 +20,21 @@ instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
 
 # production
-asset_subpath: "/hawf/"
-ga_id: UA-73782411-2 # google analytics id
+# asset_subpath: "/hawf/"
+# ga_id: UA-73782411-2 # google analytics id
 
 # dev
-# asset_subpath: ""
-# ga_id: ""
+asset_subpath: ""
+ga_id: ""
 
 collections:
   works:
+    output: true
+    layout: collection-item
+    permalink: /:collection/:name
+  interviews:
+    output: false
+  responses:
     output: true
     layout: collection-item
     permalink: /:collection/:name
@@ -39,6 +45,12 @@ defaults:
       type: works
     values:
       layout: collection-item
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: responses
+    values:
+      layout: collection-item
+      categories: ['response']
 
 # Prose settings
 prose:
