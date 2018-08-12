@@ -2,13 +2,11 @@
 layout: default
 ---
 
-
-{% if page.image %}
+{% if page.images %}
 
     <div class="jumbotron jumbotron-fluid mx-auto pb-0">
 
         {% if page.images.size > 1 %}
-        
         <div id="carouselExampleControls" class="carousel slide">
           <div class="carousel-inner">
 
@@ -46,29 +44,29 @@ layout: default
     <div class="container {{ page.categories[0] }}">
     <div class="row p-2 border contributors">
 
-    {% if page.categories[0] == 'response' %}
+{% if page.categories[0] == 'response' %}
 
-        <div class="w-100">
+    <div class="w-100">
 
-        <h3>Reflecting on the Project: {{ site.data.contributors.info[page.contributor].name }}</h3>
+    <h3>Reflecting on the Project: {{ site.data.contributors.info[page.contributor].name }}</h3>
 
-        {{ site.responses | where: 'contributor', page.contributor }}
+    {{ site.responses | where: 'contributor', page.contributor }}
 
-        {% assign info =  site.data.contributors.info[page.contributor] %}
+    {% assign info =  site.data.contributors.info[page.contributor] %}
 
-        </div>
+    </div>
 
-    {% else %}
+{% else %}
 
-        {% for curr in site.data.contributors.collaborators[page.contributors] %}
+    {% for curr in site.data.contributors.collaborators[page.contributors] %}
 
-        {% assign info = site.data.contributors.info[curr] %}
+    {% assign info = site.data.contributors.info[curr] %}
 
-        {% endfor %}
+    {% include contributors-grid.html c = info %}
 
-    {% endif %}
+    {% endfor %}
 
-        {% include contributors-grid.html c = info %}
+{% endif %}
 
 </div>
 </div>
