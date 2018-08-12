@@ -33,7 +33,7 @@ layout: default
 
         {% else %}
 
-        <img src="{{ page.image | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
+        <img src="{{ page.images[0] | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
 
         {% endif %}
 
@@ -56,12 +56,14 @@ layout: default
 
     </div>
 
+    {% assign info = site.data.contributors.info[page.contributor] %}
+    {% include contributors-grid.html c = info %}
+
 {% else %}
 
-    {% for curr in site.data.contributors.collaborators[page.contributors] %}
+    {% for contributor in site.data.contributors.collaborators[page.contributors] %}
 
-    {% assign info = site.data.contributors.info[curr] %}
-
+    {% assign info = site.data.contributors.info[contributor] %}
     {% include contributors-grid.html c = info %}
 
     {% endfor %}

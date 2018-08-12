@@ -7,7 +7,17 @@
 
     <h3>{{ c.name | remove: '\' }}</h3>
     </a>
-    
-    {{ c.bio | markdownify }}
+
+    {% comment %}
+
+    {% capture response_link %}
+        <p>
+            <a href="/{{ c.name }}"><strong>Read their reflection on the project.</strong></a>
+        </p>
+    {% endcapture %}
+    {% endcomment %}
+
+    {{ c.bio | markdownify | append: response_link }}
+
 
     </div>

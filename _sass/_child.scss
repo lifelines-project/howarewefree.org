@@ -168,6 +168,11 @@ nav#mainNav + .jumbotron {
     }
 }
 
+.responses .posts-grid .post {
+    .title { opacity: 1; }
+    &:hover .title { opacity: .85; }
+}
+
 .post-single {
     
     img { 

@@ -16,19 +16,22 @@ layout: default
 
 <div class="row p-2 border contributors">
 
+{% assign contributor = site.data.contributors.collaborators[page.contributors][0] %}
+{% assign info = site.data.contributors.info[contributor] %}
 
-{% assign curr = site.data.contributors.collaborators[page.contributors][0] %}
-{% assign info = site.data.contributors.info[curr] %}
 {% include contributors-grid.html c = info %}
 
 <div class="w-100">
-{% assign curr_interview = site.interviews | where: 'collaborators', page.contributors %}
-{{ curr_interview }}
+    {% assign interview = site.interviews | where: 'collaborators', page.contributors %}
+    
+    {{ interview }}
 </div>
 
-{% assign curr = site.data.contributors.collaborators[page.contributors][1] %}
-{% assign info = site.data.contributors.info[curr] %}
+{% assign contributor = site.data.contributors.collaborators[page.contributors][1] %}
+{% assign info = site.data.contributors.info[contributor] %}
+
 {% include contributors-grid.html c = info %}
 
 </div>
+    
 </div>

@@ -32,8 +32,6 @@ collections:
     output: true
     layout: collection-item
     permalink: /:collection/:name
-  interviews:
-    output: false
   responses:
     output: true
     layout: collection-item
