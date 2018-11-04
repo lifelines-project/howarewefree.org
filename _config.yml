@@ -20,7 +20,7 @@ instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
 
 # production
-asset_subpath: "/h/"
+asset_subpath: "/h"
 ga_id: UA-73782411-2 # google analytics id
 
 # dev
