@@ -1,6 +1,6 @@
 ---
 title: Robin Incarceration
-categories: ['Incarceration']
+categories: ['incarceration']
 contributors: mechie and robin
 excerpt: >
     "The thing that keeps me fighting is instinct. Imprisonment is not our natural habitat. This is not my home."

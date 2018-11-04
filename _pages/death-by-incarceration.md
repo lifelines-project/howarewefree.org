@@ -36,12 +36,3 @@ These questions are not rhetorical, they are life and death. And we’re fightin
 - Black Philadelphia residents are sentenced to DBI at a higher ratio than the overall incarceration rates of all but 23 countries and territories in the world.
 
 *These facts were researched and produced by the Abolitionist Law Center in Pittsburgh.*
-
-> “When I think of freedom, prisons are no longer in the equation. Freedom is about being able to peacefully express ourselves as human beings and not be persecuted/discriminated against because of cultural differences or religious beliefs. … Without a quality education, health care, housing, and employment, how can human beings enjoy their lives? Without control over our communities and the police who operate within them as if they are a military force, how are we free? Without the collective sharing of power and resources, how are we free?” – David “Dawud” Lee
-
-<!-- For image: use Matice_Freedom image
- -->
-
-## Transformation * Healing * Liberation
-
-Produced by the LifeLines Project as part of the How Are We Free exhibit (2018). Image by Matice Moore. Learn more at the [Lifelines Project](http://LifeLines-Project.org). 
