@@ -43,10 +43,10 @@ info:
     image: Matice.jpg
     bio: Matice Moore is a printmaker and painter from Arizona. After graduating from the University of Arizona in 2004 with a BA in Creative Writing and Studio Art, Matice worked in the non-profit and education sectors for ten years before returning to art making in 2014. Matice’s current work focuses on rendering Black figures against abstract backgrounds as an exploration of how the body is made and re-made through interaction with the world around us. As a linocut printmaker, Matice carves affirmative images of emerging realities that attempt to push against oppressive definitions of identity while affirming the wholeness of those systematically targeted by dominant U.S. culture. Matice’s art grows from relational politics and intends to orient toward a world beyond the oppressive and fracturing dynamics of capitalism, racism, and the gender binary. Learn more at [https://matice-moore.squarespace.com/](https://matice-moore.squarespace.com/).
     link: /david-dawud-lee
-  Layne Mullet:
-    name: Layne Mullet
+  Layne Mullett:
+    name: Layne Mullett
     image: layne.jpg
-    bio: "Layne Mullet is founding member of Decarcerate PA and the Coalition to Abolish Death By Incarceration, and a co-creator of LifeLines: Voices Against the Other Death Penalty. She has been active in social justice movements for over a decade, organizing against gentrification, austerity, and the prison industrial complex, and working for the freedom of political prisoners. Her writing has been published in the journal Perspectives on Anarchist Theory, in the anthology *Life During Wartime: Resisting Counterinsurgency*, and in the forthcoming book *The Long Term*. Layne currently serves on the Community Advisory Board for Critical Resistance. She lives in Philadelphia."
+    bio: "Layne Mullett is founding member of Decarcerate PA and the Coalition to Abolish Death By Incarceration, and a co-creator of LifeLines: Voices Against the Other Death Penalty. She has been active in social justice movements for over a decade, organizing against gentrification, austerity, and the prison industrial complex, and working for the freedom of political prisoners. Her writing has been published in the journal Perspectives on Anarchist Theory, in the anthology *Life During Wartime: Resisting Counterinsurgency*, and in *The Long Term*. Layne currently serves on the Community Advisory Board for Critical Resistance. She lives in Philadelphia."
   Makeba KEEBS Rainey:
     name: Makeba “KEEBS” Rainey
     image: Makeba.jpg
@@ -85,4 +85,3 @@ collaborators:
   nkechi and alma: ['Clinton Nkechi Walker','Alma Sheppard-Matsuo']
   dawud and matice: ['David Dawud Lee','Matice Moore']
   mechie and robin: ['Marie Mechie Scott','Robin Markle']
-
