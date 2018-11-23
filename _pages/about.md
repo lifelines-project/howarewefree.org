@@ -17,3 +17,5 @@ permalink: /about/
 This project is a labor of love, and there are so many people without whom this exhibit never would have happened. First, huge thanks to the artists and LifeLines members whose collaborations are featured on these pages. We are so inspired to see this work come into the world, and so appreciate your time and labor in making this happen. Huge thanks also to Dave Onion for graphic design support (including this publication!), Karen Kirchhoff for photography, Chenda Cope for managing the creation of the display, the Institute of Contemporary Art for hosting our launch event, the Sparkplug Foundation for providing the initial funding, and to the many other people who have volunteered their time, energy, and expertise to make this project a reality.
 
 Questions? Comments? Please let us know at: <span class='email'>moc.liamg@yllihpsenilefil</span>
+
+{% include partners.html %}

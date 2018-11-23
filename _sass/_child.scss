@@ -135,6 +135,40 @@ nav#mainNav + .jumbotron {
     }
 }
 
+// * * * Partners * * * //
+
+.partners {
+    
+    flex-direction: column;
+
+    p, h3 {
+        float: right;
+        width: 75%;
+        margin-top: 0;
+        @media screen and (max-width: 992px) { width: 100%; }
+    }
+
+    a {
+        width: 10rem;
+    }
+
+    a .cont-img {
+        height: 10rem;
+        width: 10rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    hr {
+        border-top: 2px solid rgba($link-color,1);
+        margin: 0;
+        width: 100%;
+    }
+}
+
 // * * * Posts * * * //
 
 .posts-grid {
