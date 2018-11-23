@@ -1,4 +1,4 @@
-<div class="row border posts-grid justify-content-around">
+<div class="row border posts-grid justify-content-around p-4">
     {% for post in include.posts %}
     
 {% assign url = post.title | downcase | replace: " ","-" | lstrip | prepend: '/' %}

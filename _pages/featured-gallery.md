@@ -28,15 +28,19 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
     {% assign url = url | relative_url %}
 
     {% if work.excerpt.size > 1 %}
+
+      {% unless work.show_collaborators %}
+        {% capture collaborator_a %} &nbsp;&nbsp;–<a href="{{ url }}">{{ site.data.contributors.info[c].name }}</a>{% endcapture %}
+        {{ work.excerpt | append: collaborator_a | markdownify }}
+      {% else %}
         {{ work.excerpt | markdownify }}
+      {% endunless %}
     {% endif %}
 
     {% if work.excerpt.size > 1 %}
-      {% unless work.show_collaborators %}
-        <a href="{{ url }}">{{  site.data.contributors.info[c].name }}</a>
-      {% else %}
+      {% if work.show_collaborators %}
         <a href="{{ url }}">{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</a>
-      {% endunless %}
+      {% endif %}
     {% else %}
         <a href="{{ url }}">{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</a>
     {% endif %}

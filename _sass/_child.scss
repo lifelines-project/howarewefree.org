@@ -264,14 +264,27 @@ nav#mainNav + .jumbotron {
     }
 
     .carousel-caption  p, 
-    .carousel-caption  a {
-
+    .carousel-caption a {
+    
         text-align: left;
-        background-color: rgba($gray-900, .75);
         padding: 1rem !important;
         color: $gray-300;
         font-weight: 300;
         font-family: $body-font;
+    }
+
+    .carousel-caption a {
+        text-decoration: underline;
+    }
+
+    .carousel-caption a:hover {
+        text-decoration-color: $link-color;
+    }
+
+    .carousel-caption  p, 
+    .carousel-caption > a {
+
+        background-color: rgba($gray-900, .75);
     }
     .carousel-caption  p {
         font-size: 1.25rem;
