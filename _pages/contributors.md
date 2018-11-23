@@ -7,7 +7,7 @@ class: default
 
 <div class="container">
 
-    <div class="row p-2 border contributors">
+    <div class="row p-4 border contributors">
 
     {% for curr in site.data.contributors.info %}
 

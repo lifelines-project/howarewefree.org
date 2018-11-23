@@ -127,6 +127,12 @@ nav#mainNav + .jumbotron {
         border-radius: 1rem;
         margin-bottom: 1rem;
     }
+
+    hr {
+        border-top: 2px solid rgba($link-color,1);
+        margin: 0;
+        width: 100%;
+    }
 }
 
 // * * * Posts * * * //
@@ -234,11 +240,11 @@ nav#mainNav + .jumbotron {
         font-family: $body-font;
     }
     .carousel-caption  p {
-        font-size: 2.5rem;
+        font-size: 1.25rem;
         line-height: 1.25em;
     }
     .carousel-caption  a{
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
     .carousel-caption {
         opacity: 0;

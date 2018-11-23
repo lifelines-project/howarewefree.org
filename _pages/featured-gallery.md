@@ -29,7 +29,14 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
 
     {% if work.excerpt.size > 1 %}
         {{ work.excerpt | markdownify }}
+    {% endif %}
+
+    {% if work.excerpt.size > 1 %}
+      {% unless work.show_collaborators %}
         <a href="{{ url }}">{{  site.data.contributors.info[c].name }}</a>
+      {% else %}
+        <a href="{{ url }}">{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</a>
+      {% endunless %}
     {% else %}
         <a href="{{ url }}">{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</a>
     {% endif %}

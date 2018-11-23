@@ -20,12 +20,12 @@ instagram_username: lifelines_project
 author_url: "http://lifelines-project.org/"
 
 # production
-asset_subpath: ""
-ga_id: UA-73782411-2 # google analytics id
+# asset_subpath: ""
+# ga_id: UA-73782411-2 # google analytics id
 
 # dev
-# asset_subpath: ""
-# ga_id: ""
+asset_subpath: ""
+ga_id: ""
 
 collections:
   works:
@@ -108,8 +108,8 @@ prose:
               value: terri and noelle
             - name: "Charles and Makeba"
               value: charles and makeba
-            - name: "Nkechi and Alma"
-              value: nkechi and alma
+            - name: "Clinton and Alma"
+              value: clinton and alma
             - name: "Dawud and Matice"
               value: dawud and matice
             - name: "Mechie and Robin"

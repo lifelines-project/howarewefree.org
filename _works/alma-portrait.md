@@ -1,7 +1,7 @@
 ---
 title: Alma Portrait
 categories: ['portrait']
-contributors: nkechi and alma
+contributors: clinton and alma
 excerpt:
 image: alma-portrait-web.jpg
 featured: true
