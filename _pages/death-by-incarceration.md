@@ -24,15 +24,21 @@ At its heart, the struggle to end Death By Incarceration is about more than just
  
 These questions are not rhetorical, they are life and death. And we’re fighting for life – not the kind lived inside a cage, but life with space for growth, transformation, redemption, and justice.
 
-## BY THE NUMBERS
-                            
-- More than 53,000 people are serving DBI sentences in the U.S. – over 5,400 in Pennsylvania alone. Pennsylvania has the second highest number of people serving DBI sentences in the country. 
-- Outside the U.S., Australia, the Netherlands, and the UK have more people serving DBI than any other jurisdictions. The total number of people serving DBI in these three countries combined is less than 150.
-- 155 out of 193 countries in the world ban DBI sentences.
-- Between 1992 and 2008 alone, the DBI population in the United States increased 230%.
-- Between 2003 and 2015, violent crime decreased by 21% in Pennsylvania, while the number of people serving DBI sentences increased by 40%. 
-- 11% of Pennsylvania’s residents are Black, but 65% of people sentenced to DBI are Black.
-- 207 women are sentenced to DBI in Pennsylvania.
-- Black Philadelphia residents are sentenced to DBI at a higher ratio than the overall incarceration rates of all but 23 countries and territories in the world.
+<div class="by-the-numbers">
 
-*These facts were researched and produced by the Abolitionist Law Center in Pittsburgh.*
+<h2>BY THE NUMBERS</h2>
+
+<ul>
+    <li >More than 53,000 people are serving DBI sentences in the U.S. – over 5,400 in Pennsylvania alone. Pennsylvania has the second highest number of people serving DBI sentences in the country.</li>
+    <li >Outside the U.S., Australia, the Netherlands, and the UK have more people serving DBI than any other jurisdictions. The total number of people serving DBI in these three countries combined is less than 150.</li>
+    <li >155 out of 193 countries in the world ban DBI sentences.</li>
+    <li >Between 1992 and 2008 alone, the DBI population in the United States increased 230%.</li>
+    <li >Between 2003 and 2015, violent crime decreased by 21% in Pennsylvania, while the number of people serving DBI sentences increased by 40%.</li>
+    <li >11% of Pennsylvania’s residents are Black, but 65% of people sentenced to DBI are Black.</li>
+    <li >207 women are sentenced to DBI in Pennsylvania.</li>
+    <li >Black Philadelphia residents are sentenced to DBI at a higher ratio than the overall incarceration rates of all but 23 countries and territories in the world.</li>
+</ul>
+
+<em>These facts were researched and produced by the Abolitionist Law Center in Pittsburgh.</em>
+
+</div>

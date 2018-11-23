@@ -9,7 +9,7 @@ layout: default
 </div>
 <div class="row">
     {% if page.excerpt %}
-        <h4>{{ page.excerpt }}</h4>
+        {{ page.excerpt | markdownify }}
     {% endif %}
 </div>
 

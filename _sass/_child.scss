@@ -352,10 +352,13 @@ nav#mainNav + .jumbotron {
         padding-top: 5rem;
     }
 
+    .page-heading > div {
+        background-color: rgba($gray-900, .9);
+        padding: .5rem;
+    }
     .page-heading h1, 
     span.subheading p,
     span.subheading a {
-        background-color: rgba($gray-900, .75);
         padding: 0.5rem 1rem;        
     }
 
@@ -374,3 +377,18 @@ nav#mainNav + .jumbotron {
     }
 }
 
+// * * * DBI * * * //
+
+.by-the-numbers {
+    border: 3px solid $link-color;
+    padding: 1rem;
+    ul {
+        list-style: square;    
+    }
+    li {
+        padding-bottom: .5rem;
+    }
+    li:before {
+        padding-right: 8px;
+    }
+}
