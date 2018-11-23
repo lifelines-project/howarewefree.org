@@ -1,0 +1,13 @@
+---
+
+collaborators: dawud and matice
+
+---
+
+**DAWUD:** It was important that the project include both of our personalities because this project is a process of sharing the inner workings of passionate human beings. I think that people will see the sort of mutual respect that we have for each other, and how we allowed each other to have the space to be exactly who we are, without any type of pushing or pulling… It was more than just an art collaboration; it was the connection of two emergent minds in search of liberation. 
+
+**MATICE:** This process is still teaching me, so it’s hard at this point to come up with a final assessment of the learning. I do believe it is my role and the function of art to give shape and tangibility to what does not currently exist otherwise. I was surprised by how easy it is to write to Dawud about what’s hard, and how supportive he’s been, particularly when I wanted to go in a direction that I thought would make the piece even more meaningful, but he recognized would actually do more harm than good, which was not in alignment with either of our wishes for the work. 
+
+**DAWUD:** What does freedom mean to me? Everything! When I was a young person running the streets of Philadelphia, I did not take the time to truly examine concepts like freedom, so I took a lot of things for granted. I also understand that freedom has always been just an idea, because I have never truly tasted freedom. When we create a social arrangement where you are allowed to be exactly who you are, without persecution, then we can start the conversation about freedom. When we create a society that is absent any sort of subjection and financial exploitation I will begin the thought process that will lead me to the understanding of what freedom truly means!
+
+**MATICE:** To me, true freedom is the ability to know oneself and to align our behavior in accordance with what creates more life on the planet. It feels like doing the work we feel called to do, and loving what we have to offer the world not because we have to earn a paycheck to survive, but because finishing something we enjoyed doing for ourselves and others affirms our greater belonging. Free people value the opportunity to nurture the wholeness of each and every other individual because they look forward to receiving the gifts healthy functional people bestow upon communities. Free individuals initiate and seek out spaces where we welcome evolution beyond old beliefs, structures and institutions, and channel our talents into both ending what no longer serves our collective evolution, and innovating new structures that support our healing and growth.

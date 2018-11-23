@@ -11,7 +11,12 @@ excerpt: >
     The first of the rest<br/>
     *My life my life my life my life<br/>
     In the sunshine*."
-image: kate-freedom2-web.jpg
+images:
+    - kate-freedom2-web.jpg
+    - kate-freedom-1-web.jpg
+    - kate-freedom-2-web.jpg
+    - kate-freedom-3-web.jpg
+    - kate-freedom-4-web.jpg
 featured: true
 featured_order: 19
 ---

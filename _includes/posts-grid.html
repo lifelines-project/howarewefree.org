@@ -1,13 +1,23 @@
 <div class="row border posts-grid justify-content-around p-4">
     {% for post in include.posts %}
-    
+
+    {% if page.category == "responses" or page.category == "interviews" %}
+        {% assign collection = page.category %}
+    {% else %}
+        {% assign collection = 'works' %}
+    {% endif %}
 {% assign url = post.title | downcase | replace: " ","-" | lstrip | prepend: '/' %}
-{% assign url = url | prepend: 'works' | relative_url %}
+{% assign url = url | prepend: collection | relative_url %}
 
-    <a class="d-block m-2 post" href="{{ url }}" style="background-image: url({{ post.image |  prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }});">
+    <a class="d-block m-2 post" href="{{ url }}" style="background-image: url({{ post.images[0] |  prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }});">
+        
+        {% if page.category == 'responses' %}
+            {% assign c = post.contributor %}
+        {% else %}
+            {% assign c = site.data.contributors.collaborators[post.contributors][0] %}
+        {% endif %}
 
-        {% assign c = site.data.contributors.collaborators[post.contributors][0] %}
-        <div class="title"><h3>{{  site.data.contributors.info[c].name | upcase }}</h3></div>
+        <div class="title"><h3>{{ site.data.contributors.info[c].name | upcase }}</h3></div>
     </a>
     {% endfor %}
 </div>

@@ -18,7 +18,7 @@ Using Bootstrap 4 Carousel functionality (https://getbootstrap.com/docs/4.1/comp
   {% for work in featured %}
 
   <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-  <img class="d-block mx-auto" src="{{ work.image | prepend: '/assets/images/' | prepend: site.asset_subpath }}" alt="First slide">
+  <img class="d-block mx-auto" src="{{ work.images[0] | prepend: '/assets/images/' | prepend: site.asset_subpath }}" alt="First slide">
 
   <div class="carousel-caption d-none d-md-block">
 

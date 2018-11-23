@@ -2,22 +2,75 @@
 layout: default
 ---
 
+{% if page.images %}
 
     <div class="jumbotron jumbotron-fluid mx-auto pb-0">
-        <img src="{{ page.image | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
+
+        {% if page.images.size > 1 %}
+        <div id="carouselExampleControls" class="carousel slide">
+          <div class="carousel-inner">
+
+          {% assign images = page.images %}
+
+          {% for image in images %}
+
+          <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
+          <img class="d-block mx-auto" src="{{ image | prepend: '/assets/images/' | prepend: site.asset_subpath }}" alt="First slide">
+
+          </div>
+
+          {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        {% else %}
+
+        <img src="{{ page.images[0] | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | absolute_url }}" alt="" class="d-block img-fluid mx-auto">
+
+        {% endif %}
+
     </div>
 
-    <div class="container">
+{% endif %}
+
+    <div class="container {{ page.categories[0] }}">
     <div class="row p-2 border contributors">
 
-    {% for curr in site.data.contributors.collaborators[page.contributors] %}
+{% if page.categories[0] == 'response' %}
 
-        {% assign info = site.data.contributors.info[curr] %}
+    <div class="w-100">
 
-        {% include contributors-grid.html c = info %}
+    <h3>Reflecting on the Project: {{ site.data.contributors.info[page.contributor].name }}</h3>
+
+    {{ site.responses | where: 'contributor', page.contributor }}
+
+    {% assign info =  site.data.contributors.info[page.contributor] %}
+
+    </div>
+
+    {% assign info = site.data.contributors.info[page.contributor] %}
+    {% include contributors-grid.html c = info %}
+
+{% else %}
+
+    {% for contributor in site.data.contributors.collaborators[page.contributors] %}
+
+    {% assign info = site.data.contributors.info[contributor] %}
+    {% include contributors-grid.html c = info %}
 
     {% endfor %}
 
+{% endif %}
+
+</div>
 </div>
     
 </div>

@@ -5,7 +5,7 @@
 
 // fonts
 $header-font: "cooper_hewittmedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$body-font: "cooper_hewittbook", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-font: "cooper_hewitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $emphasis-font: "londrina_outline", sans-serif;
 
 $link-color: rgb(188, 86, 60);
@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, #mainNav {
 
 body, p {
     font-family: $body-font;
+}
+
+strong {
+    font-family: $header-font;
 }
 
 a:hover {
@@ -202,6 +206,11 @@ nav#mainNav + .jumbotron {
             opacity: .85;
         }
     }
+}
+
+.responses .posts-grid .post {
+    .title { opacity: 1; }
+    &:hover .title { opacity: .85; }
 }
 
 .post-single {

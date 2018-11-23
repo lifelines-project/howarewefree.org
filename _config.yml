@@ -33,7 +33,9 @@ collections:
     layout: collection-item
     permalink: /:collection/:name
   responses:
-    output: false
+    output: true
+    layout: collection-item
+    permalink: /:collection/:name
   interviews:
     output: false
 
@@ -43,6 +45,12 @@ defaults:
       type: works
     values:
       layout: collection-item
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: responses
+    values:
+      layout: collection-item
+      categories: ['response']
 
 # Prose settings
 prose:

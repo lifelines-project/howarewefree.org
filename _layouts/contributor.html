@@ -4,9 +4,7 @@ layout: default
 
 <div class="container">
 
-
 <!-- Features a grid of the related posts followed by the bio information of the contributors. -->
-
 {% assign c = site.data.contributors.collaborators[page.contributors][0] %}
 {% assign a = site.data.contributors.collaborators[page.contributors][1] %}
 {% assign contributor_posts = site.works | where: 'contributors', page.contributors %}
@@ -20,13 +18,22 @@ layout: default
 
 <div class="row p-4 border contributors">
 
-{% for curr in site.data.contributors.collaborators[page.contributors] %}
+{% assign contributor = site.data.contributors.collaborators[page.contributors][0] %}
+{% assign info = site.data.contributors.info[contributor] %}
 
-    {% assign info = site.data.contributors.info[curr] %}
+{% include contributors-grid.html c = info %}
 
-    {% include contributors-grid.html c = info %}
+<div class="w-100">
+    {% assign interview = site.interviews | where: 'collaborators', page.contributors %}
+    
+    {{ interview }}
+</div>
 
-{% endfor %}
+{% assign contributor = site.data.contributors.collaborators[page.contributors][1] %}
+{% assign info = site.data.contributors.info[contributor] %}
+
+{% include contributors-grid.html c = info %}
 
 </div>
+    
 </div>

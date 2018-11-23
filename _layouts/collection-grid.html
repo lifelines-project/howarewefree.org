@@ -17,6 +17,10 @@ layout: default
 
 {% assign posts = site.works %}
 
+{% elsif page.category == 'responses' %}
+
+{% assign posts = site.responses %}
+
 {% elsif page.category %}
 
 {% assign posts = site.works | where: 'categories', page.category %}
