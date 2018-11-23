@@ -1,6 +1,6 @@
 {% assign c = include.c %}
 
-    <div class="w-100 p-2 pb-4">
+    <div class="w-100 p-2">
 
     <a class="d-block float-left" href="{{ c.link | relative_url }}">
     <div class="pb-4 cont-img" style="background-image: url({{ c.image | prepend: '/' | prepend: site.prose.media | prepend: site.asset_subpath | relative_url }})"></div>
@@ -8,16 +8,7 @@
     <h3>{{ c.name | remove: '\' }}</h3>
     </a>
 
-    {% comment %}
-
-    {% capture response_link %}
-        <p>
-            <a href="/{{ c.name }}"><strong>Read their reflection on the project.</strong></a>
-        </p>
-    {% endcapture %}
-    {% endcomment %}
-
-    {{ c.bio | markdownify | append: response_link }}
+    {{ c.bio | append: response_link | markdownify }}
 
 
     </div>

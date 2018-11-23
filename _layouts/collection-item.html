@@ -42,21 +42,31 @@ layout: default
 {% endif %}
 
     <div class="container {{ page.categories[0] }}">
-    <div class="row p-2 border contributors">
+
 
 {% if page.categories[0] == 'response' %}
 
-    <div class="w-100">
+    {% assign c = site.data.contributors.collaborators[page.collaborators][0] %}
+    {% assign a = site.data.contributors.collaborators[page.collaborators][1] %}
 
-    <h3>Reflecting on the Project: {{ site.data.contributors.info[page.contributor].name }}</h3>
+    <div class="row w-100 border p-4">
 
-    {{ site.responses | where: 'contributor', page.contributor }}
+    <h3>Reflecting on the Project: {{ c }} &amp; {{ a }}</h3>
 
-    {% assign info =  site.data.contributors.info[page.contributor] %}
+    {{ site.responses | where: 'collaborators', page.collaborators }}
 
     </div>
 
-    {% assign info = site.data.contributors.info[page.contributor] %}
+{% endif %}
+
+    <div class="row w-100 p-4 border border-top-0 contributors">
+
+{% if page.categories[0] == 'response' %}
+
+    {% assign info = site.data.contributors.info[c] %}
+    {% include contributors-grid.html c = info %}
+
+    {% assign info = site.data.contributors.info[a] %}
     {% include contributors-grid.html c = info %}
 
 {% else %}

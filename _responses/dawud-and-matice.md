@@ -1,6 +1,6 @@
 ---
 
-contributor: Matice Moore
+collaborators: dawud and matice
 
 ---
 

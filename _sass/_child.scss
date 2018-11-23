@@ -110,6 +110,14 @@ nav#mainNav + .jumbotron {
 .contributors {
     
     flex-direction: column;
+    
+    & div {
+        padding-bottom: 1.5rem !important;
+    }
+
+    & div:last-of-type {
+        padding-bottom: 0rem !important;
+    }
 
     p {
         float: right;
@@ -132,10 +140,26 @@ nav#mainNav + .jumbotron {
         margin-bottom: 1rem;
     }
 
-    hr {
-        border-top: 2px solid rgba($link-color,1);
-        margin: 0;
-        width: 100%;
+    .interview {
+        margin-top: -1.5rem;
+        margin-bottom: 1.5rem;
+        padding-top: calc(1.5rem + 10px);
+        padding-bottom: 0 !important;
+        border-top: 3px solid $link-color;
+        border-bottom: 3px solid $link-color;
+
+    }
+
+    .response-link {
+        text-align: center;
+
+        a {
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration-color: $link-color;
+        }
     }
 }
 

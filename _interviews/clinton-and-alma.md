@@ -1,6 +1,6 @@
 ---
 
-collaborators: nkechi and alma
+collaborators: clinton and alma
 
 ---
 

@@ -5,25 +5,26 @@ layout: default
 <div class="container">
 
 <!-- Features a grid of the related posts followed by the bio information of the contributors. -->
-{% assign c = site.data.contributors.collaborators[page.contributors][0] %}
-{% assign a = site.data.contributors.collaborators[page.contributors][1] %}
+{% assign collaborator = site.data.contributors.collaborators[page.contributors][0] %}
+{% assign artist = site.data.contributors.collaborators[page.contributors][1] %}
 {% assign contributor_posts = site.works | where: 'contributors', page.contributors %}
 
-<div class="row"><h2>{{  site.data.contributors.info[c].name | upcase }} &amp; {{  site.data.contributors.info[a].name | upcase }}</h2></div>
+<div class="row"><h2>{{  site.data.contributors.info[collaborator].name | upcase }} &amp; {{  site.data.contributors.info[artist].name | upcase }}</h2></div>
 
 <!-- grid -->
 {% include posts-grid.html posts = contributor_posts %}
 
 <!-- contributors -->
 
-<div class="row p-4 border contributors">
+<div class="row p-4 border border-top-0 contributors">
 
 {% assign contributor = site.data.contributors.collaborators[page.contributors][0] %}
 {% assign info = site.data.contributors.info[contributor] %}
 
 {% include contributors-grid.html c = info %}
 
-<div class="w-100">
+<div class="w-100 interview">
+
     {% assign interview = site.interviews | where: 'collaborators', page.contributors %}
     
     {{ interview }}
@@ -34,6 +35,8 @@ layout: default
 
 {% include contributors-grid.html c = info %}
 
+    <div class="w-100 p-2 response-link"><h4><a href="/responses/{{ page.contributors | replace: ' ','-' }}">{{  site.data.contributors.info[collaborator].name }} &amp; {{  site.data.contributors.info[artist].name }} reflect on the process &rarr;</a></h4></div>
+
 </div>
-    
+
 </div>
