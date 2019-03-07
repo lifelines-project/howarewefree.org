@@ -1,7 +1,6 @@
 ---
-
 collaborators: terri and noelle
-
+published: true
 ---
 
 The collaborative process with Ms. Williams was exciting. We started with a little get-to-know-you email. THen she suggested I do “I am from…” a poem template that gave her more insight on my daily visualization. I then explained what freedom would look like to me. I did so without thinking, as I felt it’d be the clearest picture. She made it a smooth process for me, especially since I’m not an artist or overly creative. I wanted to make clear that freedom looks like change, emotionally, physically, and socially. 
@@ -48,8 +47,4 @@ I am from Master Street, Slocum Street and Summer trips to North Carolina, but t
 Our working title for the exhibit is “How are we free?” The title is meant to evoke both the question of how we free ourselves/our loved ones from prison, but also to invite a deeper inquiry into what freedom means, what it feels like, and how we as a society are falling short on creating the conditions for liberation (all themes we saw heavily reflected both in the writing of LifeLines members and in the artwork produced). Our question for you is: What does freedom mean to you?
 
 Freedom to me is autonomy.  It is the ability to make decisions for oneself and to direct how one lives and interacts with others in this world.  It is to be acknowledged as “fully human” – which for African American women in the United States has been both a legal, social and political struggle against dehumanization processes.
- 
-Finally, while your answers to the above questions may appear in LifeLines materials, this last question is just for our own internal use and learning. If we were to do a similar project in the future, what should we do differently? Is there particular support or information you didn’t have that you would have benefited from? What else could the process have looked like?
- 
-High resolution images needed.
 
