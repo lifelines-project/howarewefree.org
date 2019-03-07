@@ -2,6 +2,7 @@
 collaborators: terri and noelle
 published: true
 ---
+_At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses._
 
 The collaborative process with Ms. Williams was exciting. We started with a little get-to-know-you email. THen she suggested I do “I am from…” a poem template that gave her more insight on my daily visualization. I then explained what freedom would look like to me. I did so without thinking, as I felt it’d be the clearest picture. She made it a smooth process for me, especially since I’m not an artist or overly creative. I wanted to make clear that freedom looks like change, emotionally, physically, and socially. 
 
