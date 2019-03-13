@@ -2,7 +2,7 @@
 collaborators: terri and noelle
 published: true
 ---
-### _At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses._
+**_At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses._**
 
 ## From Terri
 
