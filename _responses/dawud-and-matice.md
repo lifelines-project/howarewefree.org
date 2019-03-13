@@ -1,26 +1,25 @@
 ---
-
 collaborators: dawud and matice
-
+published: true
 ---
+_**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**_
 
-Describe the collaboration process that you and your partner developed. What was the hardest to convey to your collaborator? What was particularly important to you to make sure was included?
+## From Matice
+
+_Describe the collaboration process that you and your partner developed. What was the hardest to convey to your collaborator? What was particularly important to you to make sure was included?_
 
 Dawud and I pretty much hit it off right off the bat I would say. I took the responses he initially did for the project and highlighted phrases or visual descriptions that really stood out for me or generated visual ideas on my end. I then wrote out those ideas and some basic sketches to Dawud who was receptive and approved of everything, giving me pretty much full creative freedom. If there was anything that was difficult, or hard to convey, it was likely due to the lapses in communication on my part, as I was in (and continue to be) a lot of transition that made sitting down to write a letter difficult sometimes. Dawud was supportive and receptive to all of my ideas from the beginning, offered more reflection about his experience and photos of his life when I asked, and he was willing to explore more concepts with me throughout the duration of the project.
 
-What did you learn from this process? What were you surprised by?
+_What did you learn from this process? What were you surprised by?_
 
 This process is still teaching me, so it’s hard at this point to come up with a final assessment of the learning. I do believe it is my role and the function of art to give shape and tangibility to what does not currently exist otherwise. As such, I was surprised at how difficult and overwhelmingly large of a project this felt like once I was in it. I was surprised by the degree of perfectionism I experienced, and the ways I felt unable to conceive and move forward with the work until the very last minute. I was surprised by how easy it is to write to Dawud about what’s hard, and how supportive he’s been, particularly when I wanted to go in a direction that I thought would make the piece even more meaningful, but he recognized would actually do more harm than good, which was not in alignment with either of our wishes for the work (I initially wanted to use real $100 bills rather than counterfeit money in the visions of incarceration piece).
 
-Are there any excerpts from your correspondence together that you found particularly powerful that you’d be willing to share with us?
+_Are there any excerpts from your correspondence together that you found particularly powerful that you’d be willing to share with us?_
 
 A number of times throughout our correspondence, I was moved by Dawud’s consideration of collective care and his recognition of our interconnection beyond the needs of the individual. In his initial response that outlined his vision of liberation, I made sure to note that he ended with a question: “Without the collective sharing of power and resources, how are we free?”
  
 In October of last year, he wrote a letter to me in response to a book I’d sent him called “The Sovereignty of Quiet: Beyond Resistance in Black Culture,” wherein Dawud writes, “I always try to understand what responsibilities come along with living and connecting with people. I have come to learn that in every aspect of life there are responsibilities that we as caring human beings must be aware of if we truly care about what is good for people outside of ourselves.” Later, in reference to an exchange we’d had about the ways we tried to achieve a sense of inner and outer freedom as children through sports, Dawud connected what can be learned through playing on a team to our collective struggle for liberation. He states, “I always believed in playing as a team and sharing opportunities to score, and sharing the ball in general, and whoever had the hot hand feed them the ball. I still have that mentality today, and I still see the benefit in sharing the spotlight and opportunities to shine…The collective joy of winning is always more satisfactory to me because it is a shared process. Working together to gain our complete freedom in this country is powerful; collective consciousness is powerful; collective power is mandatory if we are to truly enjoy our freedom.”
 
-
-Our working title for the exhibit is “How are we free?” The title is meant to evoke both the question of how we free ourselves/our loved ones from prison, but also to invite a deeper inquiry into what freedom means, what it feels like, and how we as a society are falling short on creating the conditions for liberation (all themes we saw heavily reflected both in the writing of LifeLines members and in the artwork produced). Our question for you is: What does freedom mean to you?
+_What does freedom mean to you?_
 
 Freedom to me is the removal of obstacles and projections that hinder or inhibit the truest expression of human spirit and potential. To me, true freedom is the ability to know oneself and to align our behavior in accordance with what creates more life on the planet. It feels like doing the work we feel called to do, and loving what we have to offer the world not because we have to earn a paycheck to survive, but because finishing something we enjoyed doing for ourselves and others affirms our greater belonging. Free people value the opportunity to nurture the wholeness of each and every other individual because they look forward to receiving the gifts healthy functional people bestow upon communities. Free individuals initiate and seek out spaces where we welcome evolution beyond old beliefs, structures and institutions, and channel our talents into both ending what no longer serves our collective evolution, and innovating new structures that support our healing and growth.
-   
-
