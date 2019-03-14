@@ -22,7 +22,7 @@ It is definitely not an abstract concept. The problem with defining freedom is t
  
 ## From Makeba
 
-_Describe the collaboration process_
+Describe the collaboration process
 
 Charles and I discussed a lot of different things. We covered a lot of ground, first getting to know each other...getting a feel for each others politics before delving into the subject matter of the LifeLines project. At first, we snail-mailed letters to each other and for a while that was our only form of communication. As the project progressed, as deadlines approached, we both figured we needed to be more accessible. Eventually I signed up for the email service so that we could communicate quicker. Closer to the end of the project, I was put on on Charles' phone list so I could receive phone calls. For me, all of this was very limiting because we weren't able to contact each other when necessary. Emails have word-limits and phone calls have time-limits. Snail mail was better for longer, more detailed messages, but they took so long come.  
  
