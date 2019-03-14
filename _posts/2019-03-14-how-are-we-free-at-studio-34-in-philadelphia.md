@@ -17,7 +17,7 @@ The participating artists are: Makeba Rainey (Philadelphia), Noelle Lorraine Wil
 
 **Can't make the opening? The exhibit will be up in Studio 34 until April 27th.** Open hours are:
 
-<br>Mon – Thu: 10AM – 8PM<br>
+Mon – Thu: 10AM – 8PM<br>
 Fri: 10AM – 6PM<br>
 Sat-Sun: 10AM – 4PM
 
