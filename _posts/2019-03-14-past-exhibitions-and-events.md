@@ -3,6 +3,8 @@ date: '2019-03-14 15:40 -0400'
 published: true
 title: Past exhibitions and events
 ---
+![How Are We Free exhibit]({{site.baseurl}}/assets/images/HAWF pic.jpg)
+
 Selections from the exhibit appeared as part of the **Art As Resistance Gallery at Beyond the Walls: Reentry Summit and Prison Healthcare** event on Friday October 5th from 8am to 5pm at the Pennsylvania Convention Center. 
 
 Selections of the How Are We Free exhibit traveled to Pittsburgh to be part of the **Letters & Liberation exhibit**. Letters & Liberation were up at the BOOM Concepts Gallery at 5139 Penn Ave in Pittsburgh from July 6th through July 29th.
