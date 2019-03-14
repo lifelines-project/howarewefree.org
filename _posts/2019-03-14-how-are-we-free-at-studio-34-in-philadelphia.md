@@ -5,13 +5,13 @@ title: How Are We Free at Studio 34 in Philadelphia
 ---
 ![HAWF Studio 34 social promo.png]({{site.baseurl}}/assets/images/HAWF%20Studio%2034%20social%20promo.png)
 
-Join the LifeLines Project at Studio 34 for the opening of How Are We Free.
+**Join the LifeLines Project at Studio 34 for the opening of How Are We Free.**
 
 How Are We Free explores the nature of freedom and confinement through creative collaboration between people who have been sentenced to die in prison and visual artists outside the prison walls. Visual economies and regimes of power have been massively employed by the state and the media in order to criminalize people. This exhibit interrupts those regimes and instead invites viewers to investigate what actually creates conditions for safety, healing, justice, transformation, and liberation.
 
-The event will feature work from the exhibit and a panel discussion with artists, incarcerated LifeLines members, and activists from the movement to end Death By Incarceration. **The event will take place from 7-9 on Friday, March 22 at Studio 34 (4522 Baltimore Ave). 
+The event will feature work from the exhibit and a panel discussion with artists, incarcerated LifeLines members, and activists from the movement to end Death By Incarceration. **The event will take place from 7-9 on Friday, March 22 at Studio 34 (4522 Baltimore Ave).**
 
-Panelists include Noelle Lorraine Williams, Kempis Ghani Songster, and Robert Saleem Holbrook. They will be joined via prerecorded audio by LifeLines members David "Dawud" Lee and Marie "Mechie" Scott.**
+Panelists include **Noelle Lorraine Williams, Kempis Ghani Songster**, and **Robert Saleem Holbrook.** They will be joined via prerecorded audio by LifeLines members **David "Dawud" Lee** and **Marie "Mechie" Scott.**
 
 The participating artists are: Makeba Rainey (Philadelphia), Noelle Lorraine Williams (New Jersey), Matice Moore (Baltimore), Alma Sheppard-Matsuo (Philadelphia), Gb Kim (Brooklyn), Robin Markle (Philadelphia), and Kate DeCiccio (Washington DC). Their collaborators on the inside are Clinton Walker, Terri Harper, Felix “Phill” Rosado, Avis Lee, David “Dawud” Lee, Marie “Mechie” Scott, and Charles Boyd.
 
