@@ -2,7 +2,7 @@
 collaborators: clinton and alma
 published: true
 ---
-**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**__
+**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**
 
 ## From Clinton:
 
