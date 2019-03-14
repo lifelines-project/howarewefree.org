@@ -2,34 +2,34 @@
 collaborators: avis and gb
 published: true
 ---
-**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**__
+**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**
 
 ## From Avis:
-
+<br>
 _Describe the collaboration process that you and your partner developed._
 
 Our collaboration process was open dialog that was very descriptive.
- 
+
 _What was the hardest to convey to your collaborator?_
 
 The emotion behind my words.
- 
+
 _What was particularly important to you to make sure was included?_
 
 Aging and the passage of time.
- 
+
 _What did you learn from the process?_
 
 I learned that there are different ways to tell a story. I have a story to tell and Gb Kim is able to help me tell it.
- 
+
 _What were you surprised by?_
 
 I'm surprised that when I thought my life was stagnated at a standstill I was in reality still moving forward, evolving, and growing.
- 
+
 _What does freedom mean to you?_
 
 Freedom means the right to make choices; choices that are healthy for me and ones whose ripple effect is healthy for those around me.
- 
+
 ## From Gb Kim:
 
 _Describe the collaboration process that you and your partner developed. What was the hardest to convey to your collaborator? What was particularly important to you to make sure was included?_
@@ -59,5 +59,3 @@ Avis
 _What does freedom mean to you?_
 
 I am an asian-american woman with the high mobility (education, communities, transition in and out of white spaces, transition in and out of "POC" spaces (in quotes because POC is not a sufficient term), etc.) that comes with honorary whiteness. This informs my sense of the world and informs the world the ways to evidence my humanity back to me. I think maybe...freedom is sometimes political, like some type of currency of privilege that mutates based on the type and manner of privilege(s). Freedom is sometimes about "normative" doing like the casualness of a conversation around "I like the grocery store down the block better than the one on the corner." Freedom is sometimes emotional and is shaped or held by fear--that freedom might be to live free of fear. Freedom is sometimes an awesome chaos like light or the seeming anarchy of particle physics (though of course we could say these are "governed" by mathematics)...freedom is deeply about the ability to employ the mind and all that it contains someway and anyway into the physical world.
-
-
