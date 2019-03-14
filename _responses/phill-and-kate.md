@@ -3,7 +3,7 @@ collaborators: phill and kate
 published: true
 ---
 
-**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**__
+**At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**
 
 ## From Phill: 
 
@@ -23,9 +23,7 @@ Freedom to me is the ability to make choices about where my body will be on a gi
 _Are there any excerpts from your correspondence together that you found particularly powerful that you’d be willing to share with us?_
 
 <br>
-Excerpts:
-
-(from Kate to me)
+Excerpts:(from Kate to me)
 
 “My experience working in prisons, I feel like you’ve captured something that’s a key feature in the prison experience: that the most human basic needs become reformatted into a series of protocols that insult your humanity every step of the way, right? Food, clothing, shelter, hygiene, water… we could make art for the next 10 years about how these basics are used to remind incarcerated people of their powerlessness and lack of agency.”
 
@@ -43,5 +41,4 @@ I've never worked with anyone in prison who has access to email, this drasticall
 
 _What does freedom mean to you?_
 
-To me freedom exists when we are able to achieve our full selves accessing our full humanity, creativity & capacity to thrive in relationships that are both loving and challenging. A part of this includes defending this freedom for others & discovering fulfillment by experiencing the liberation of others. 
-
+To me freedom exists when we are able to achieve our full selves accessing our full humanity, creativity & capacity to thrive in relationships that are both loving and challenging. A part of this includes defending this freedom for others & discovering fulfillment by experiencing the liberation of others.
