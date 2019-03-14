@@ -16,6 +16,7 @@ Panelists include **Noelle Lorraine Williams, Kempis Ghani Songster**, and **Rob
 The participating artists are: Makeba Rainey (Philadelphia), Noelle Lorraine Williams (New Jersey), Matice Moore (Baltimore), Alma Sheppard-Matsuo (Philadelphia), Gb Kim (Brooklyn), Robin Markle (Philadelphia), and Kate DeCiccio (Washington DC). Their collaborators on the inside are Clinton Walker, Terri Harper, Felix “Phill” Rosado, Avis Lee, David “Dawud” Lee, Marie “Mechie” Scott, and Charles Boyd.
 
 **Can't make the opening? The exhibit will be up in Studio 34 until April 27th.** Open hours are:
+
 <br>Mon – Thu: 10AM – 8PM<br>
 Fri: 10AM – 6PM<br>
 Sat-Sun: 10AM – 4PM
