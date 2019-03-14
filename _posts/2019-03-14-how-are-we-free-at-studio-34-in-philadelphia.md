@@ -5,9 +5,9 @@ title: How Are We Free opens March 22 at Studio 34 in Philadelphia
 ---
 ![HAWF Studio 34 social promo.png]({{site.baseurl}}/assets/images/HAWF%20Studio%2034%20social%20promo.png)
 
-**Join the LifeLines Project at Studio 34 for the opening of the How Are We Free exhibit.**
+**Join the LifeLines Project at Studio 34 for the opening of the _How Are We Free exhibit_.**
 
-_How Are We Free_explores the nature of freedom and confinement through creative collaboration between people who have been sentenced to die in prison and visual artists outside the prison walls. Visual economies and regimes of power have been massively employed by the state and the media in order to criminalize people. This exhibit interrupts those regimes and instead invites viewers to investigate what actually creates conditions for safety, healing, justice, transformation, and liberation.
+_How Are We Free_ explores the nature of freedom and confinement through creative collaboration between people who have been sentenced to die in prison and visual artists outside the prison walls. Visual economies and regimes of power have been massively employed by the state and the media in order to criminalize people. This exhibit interrupts those regimes and instead invites viewers to investigate what actually creates conditions for safety, healing, justice, transformation, and liberation.
 
 The event will feature work from the exhibit and a panel discussion with artists, incarcerated LifeLines members, and activists from the movement to end Death By Incarceration. **The event will take place from 7-9 on Friday, March 22 at Studio 34 (4522 Baltimore Ave).**
 
