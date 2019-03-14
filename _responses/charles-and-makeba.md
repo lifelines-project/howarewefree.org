@@ -20,7 +20,7 @@ _What does freedom mean to you?_
  
 It is definitely not an abstract concept. The problem with defining freedom is that it is subjective. The complexity evolving around an individualized characterization is that it's bias and therefore disallows others. Freedom is being able to love without the fear of the repercussions. I just love you and fight for you because I realize that my existence is intertwined with yours and vice-versa. Freedom is to have a stake in the issues that affect you. No means no and if I don't want your unwarranted advances or your corporations drilling for oil on my property then stay the fk off. If it's mine, then it's sacred. Freedom means me as a human being having more rights that a corporation. When the people cry out for justice, freedom and equality and it does not land on a deaf ear... that's freedom. When the people cry out that's too much... whether it be misogyny, discrimination, racism, mass incarceration, xenophobia, etc. and it stops, then that's freedom.
 
-##From Makeba
+## From Makeba
 
 _Describe the collaborative process._
 
