@@ -1,6 +1,6 @@
 ---
 date: '2019-03-14 15:40 -0400'
-published: false
+published: true
 title: Past exhibitions and events
 ---
 Selections from the exhibit appeared as part of the **Art As Resistance Gallery at Beyond the Walls: Reentry Summit and Prison Healthcare** event on Friday October 5th from 8am to 5pm at the Pennsylvania Convention Center. 
@@ -16,4 +16,3 @@ How Are We Free was on display at the **Scott Memorial Library** at Thomas Jeffe
 A portion of the exhibit appeared at the **Our (Digital) Humanity: Storytelling, Media Organizing and Social Justice Community Conference** at Lehigh University on April 21st.
 
 The exhibit opened at a one night event at the **Institute of Contemporary Art** in Philadelphia on February 9th, 2018.
-
