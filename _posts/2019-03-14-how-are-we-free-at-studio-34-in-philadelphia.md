@@ -1,9 +1,10 @@
 ---
 date: '2019-03-14 15:53 -0400'
-published: false
+published: true
 title: How Are We Free at Studio 34 in Philadelphia
 ---
 ![HAWF Studio 34 social promo.png]({{site.baseurl}}/assets/images/HAWF%20Studio%2034%20social%20promo.png)
+
 Join the LifeLines Project at Studio 34 for the opening of How Are We Free.
 
 How Are We Free explores the nature of freedom and confinement through creative collaboration between people who have been sentenced to die in prison and visual artists outside the prison walls. Visual economies and regimes of power have been massively employed by the state and the media in order to criminalize people. This exhibit interrupts those regimes and instead invites viewers to investigate what actually creates conditions for safety, healing, justice, transformation, and liberation.
