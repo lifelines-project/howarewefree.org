@@ -5,7 +5,7 @@ published: true
 **At the conclusion of the creation of the project, we asked participants to reflect on what the process was like for them. Here are excerpts from their responses.**
 
 ## From Avis:
-<br>
+
 _Describe the collaboration process that you and your partner developed._
 
 Our collaboration process was open dialog that was very descriptive.
