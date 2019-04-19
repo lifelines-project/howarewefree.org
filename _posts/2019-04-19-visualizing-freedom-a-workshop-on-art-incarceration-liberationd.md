@@ -3,6 +3,9 @@ date: '2019-04-19 10:14 -0400'
 published: true
 title: 'Visualizing Freedom: a workshop on art, incarceration & liberation'
 ---
+![#HowAreWeFree workshop flyer]({{site.baseurl}}/assets/images/visualizing freedom_FB promo (1).png)
+
+
 ### Saturday April 27 from 1:30 - 3:30
 ## Studio 34, 4522 Baltimore Ave in Philadelphia
 
