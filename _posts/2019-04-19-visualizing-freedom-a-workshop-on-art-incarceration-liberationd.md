@@ -1,7 +1,7 @@
 ---
 date: '2019-04-19 10:14 -0400'
 published: false
-title: 'Visualizing Freedom: a workshop on art, incarceration & liberationd'
+title: 'Visualizing Freedom: a workshop on art, incarceration & liberation'
 ---
 ### Saturday April 27 from 1:30 - 3:30
 ## Studio 34, 4522 Baltimore Ave in Philadelphia
